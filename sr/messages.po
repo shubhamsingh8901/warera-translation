@@ -63,15 +63,15 @@ msgstr " Поклони претплату"
 msgid "- Defending this region will have a malus of <0>{0}</0>."
 msgstr "- Одбрана овог региона ће имати малус од <0>{0}</0>."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:135
+#: src/components/_economy/employee/training.frontConfig.tsx:154
 msgid "-10% on the wage they expect."
 msgstr "-10% на очекивану плату."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:136
+#: src/components/_economy/employee/training.frontConfig.tsx:155
 msgid "-20% on the wage they expect."
 msgstr "-20% на очекивану плату."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:134
+#: src/components/_economy/employee/training.frontConfig.tsx:153
 msgid "-5% on the wage they expect."
 msgstr "-5% на очекивану плату."
 
@@ -84,7 +84,7 @@ msgstr "Нека буде „Виши радник“. Засад ће посл�
 msgid "(average member development)"
 msgstr "(просечан развој чланица)"
 
-#: src/components/_economy/employee/employeeStats.tsx:757
+#: src/components/_economy/employee/employeeStats.tsx:657
 msgid "(coworker)"
 msgstr "(колега)"
 
@@ -97,12 +97,12 @@ msgid "(own development)"
 msgstr "(сопствени развој)"
 
 #. placeholder {0}: others.length
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:602
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:611
 msgid "{0, plural, one {# coworker} other {# coworkers}}"
 msgstr "{0, plural, one {# колега} few {# колеге} other {# колега}}"
 
 #. placeholder {0}: hours / 24
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:60
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:61
 msgid "{0, plural, one {# day} other {# days}}"
 msgstr "{0, plural, one {# дан} few {# дана} other {# дана}}"
 
@@ -168,7 +168,7 @@ msgid "{0} active citizens required"
 msgstr "Потребно је {0} активних грађана"
 
 #. placeholder {0}: getTimeAgo(entry.pickedAt, 'fromNow', undefined, true, true)
-#: src/components/_economy/employee/TrainingHistory.tsx:184
+#: src/components/_economy/employee/TrainingHistory.tsx:204
 msgid "{0} ago"
 msgstr "пре {0}"
 
@@ -271,7 +271,7 @@ msgid "{0} strategic resource income"
 msgstr "{0} прихода од стратешких ресурса"
 
 #. placeholder {0}: itemName(rarity)
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:244
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:253
 msgid "{0} tool"
 msgstr "Алат ({0})"
 
@@ -424,7 +424,7 @@ msgstr "{count, plural, one {<0>Надогради вештине <1/> пут</0
 msgid "{count, plural, one {<0>Work <1/> time in your companies</0>} other {<2>Work <3/> times in your companies</2>}}"
 msgstr "{count, plural, one {<0>Ради <1/> пут у својим компанијама</0>} few {<2>Ради <3/> пута у својим компанијама</2>} other {<2>Ради <3/> пута у својим компанијама</2>}}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:171
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:180
 msgid "{days, plural, one {# day of their wage} other {# days of their wage}}"
 msgstr "{days, plural, one {# дневна плата} few {# дневне плате} other {# дневних плата}}"
 
@@ -1603,7 +1603,7 @@ msgstr "За један <1>{1}</1> треба {grainPerBread}× <0>{0}</0>, за
 msgid "{homeRegionsAway, plural, one {# region away} other {# regions away}}"
 msgstr "{homeRegionsAway, plural, one {# регион одавде} few {# региона одавде} other {# региона одавде}}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:62
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:63
 msgid "{hours, plural, one {# hour} other {# hours}}"
 msgstr "{hours, plural, one {# сат} few {# сата} other {# сати}}"
 
@@ -1699,7 +1699,7 @@ msgstr "{name} хоће термостат на 18 степени, {partnerName}
 msgid "{name} wears the hat proudly. {partnerName} wanted the hat."
 msgstr "{name} поносно носи шешир. {partnerName} завидно гледа у тај шешир."
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:606
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:615
 msgid "{named} and {counted}"
 msgstr "{named} и {counted}"
 
@@ -1710,6 +1710,10 @@ msgstr "{names}: одлучено док те није било"
 #: src/components/_user/user/Level.tsx:137
 msgid "{nextLevelSkillPoints} Skill Points"
 msgstr "{nextLevelSkillPoints} поена вештина"
+
+#: src/components/_economy/employee/employeeStats.tsx:360
+msgid "{otherPct} on other checks"
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:1890
 msgid "{partnerName} backs off. The fort stands."
@@ -1813,11 +1817,11 @@ msgstr "За обуку: {trainable}"
 
 #. placeholder {0}: employee.potential
 #. placeholder {1}: employee.potentialMax
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:341
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:332
 msgid "{trainingsLeft} training sessions left ({0}/{1} used)."
 msgstr "Преостало обука: {trainingsLeft} (искоришћено {0}/{1})."
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:482
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:491
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:121
 msgid "{value} days of experience"
 msgstr "{value} дана искуства"
@@ -1826,16 +1830,16 @@ msgstr "{value} дана искуства"
 msgid "{value} km"
 msgstr "{value} км"
 
-#: src/components/_economy/employee/employeeStats.tsx:537
+#: src/components/_economy/employee/employeeStats.tsx:437
 msgid "{value} morale = <0>{signedBonus}</0> {production}."
 msgstr "{value} морала = <0>{signedBonus}</0> {production}."
 
-#: src/components/_economy/employee/employeeStats.tsx:533
+#: src/components/_economy/employee/employeeStats.tsx:433
 msgid "{value} morale = <0>no</0> {production} change."
 msgstr "{value} морала = {production} <0>без</0> промене."
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:716
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:720
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:725
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:729
 msgid "{value} received"
 msgstr "Добијено: {value}"
 
@@ -1843,94 +1847,94 @@ msgstr "Добијено: {value}"
 msgid "{value} training potential left"
 msgstr "Преостали потенцијал за обуку: {value}"
 
-#: src/components/_economy/employee/employeeCards.tsx:224
-#: src/components/_economy/employee/EmployeeTooltip.tsx:142
+#: src/components/_economy/employee/employeeCards.tsx:227
+#: src/components/_economy/employee/EmployeeTooltip.tsx:138
 msgid "{wage} / day"
 msgstr "{wage} / дан"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:529
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:538
 msgid "{who} leaves the company: {value}"
 msgstr "{who} напушта компанију: {value}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:737
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:746
 msgid "{who} left: {value}"
 msgstr "{who} више није у компанији: {value}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:653
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:662
 msgid "{who}: {value}"
 msgstr "{who}: {value}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:401
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:410
 msgid "{who}: {value} (uses Potential)"
 msgstr "{who}: {value} (троши потенцијал)"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:709
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:718
 msgid "{who}: {value} days of experience"
 msgstr "{who}: {value} дана искуства"
 
 #. placeholder {0}: duration(effect.hours)
 #. placeholder {0}: duration(hoursGiven(event.resolvedAt, applied.until))
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:362
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:370
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:627
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:371
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:379
 #: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:636
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:645
 msgid "{who}: {value} for {0}"
 msgstr "{who}: {value} на {0}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:386
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:395
 msgid "{who}: {value} to a random stat"
 msgstr "{who}: {value} на насумичан атрибут"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:394
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:403
 msgid "{who}: {value} to a random stat (uses Potential)"
 msgstr "{who}: {value} на насумичан атрибут (троши потенцијал)"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:409
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:418
 msgid "{who}: {value} training potential"
 msgstr "{who}: {value} потенцијала за обуку"
 
 #. placeholder {0}: duration(effect.hours)
 #. placeholder {0}: duration(hoursGiven(event.resolvedAt, applied.until))
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:377
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:644
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:386
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:653
 msgid "{who}: <0>away</0> for {0} (no work, no wage)"
 msgstr "{who}: <0>одсуство</0> на {0} (без рада и без плате)"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:690
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:699
 msgid "{who}: asks for more pay"
 msgstr "{who}: тражи већу плату"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:702
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:711
 msgid "{who}: experience in {good} lost"
 msgstr "{who}: изгубљено искуство ({good})"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:428
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:668
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:437
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:677
 msgid "{who}: gains <0/>"
 msgstr "{who}: добија особину <0/>"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:423
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:432
 msgid "{who}: gains a random <0>bad trait</0>"
 msgstr "{who}: добија насумичну <0>лошу особину</0>"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:417
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:426
 msgid "{who}: gains a random <0>good trait</0>"
 msgstr "{who}: добија насумичну <0>добру особину</0>"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:440
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:674
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:449
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:683
 msgid "{who}: loses <0/>"
 msgstr "{who}: губи особину <0/>"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:435
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:444
 msgid "{who}: loses a <0>bad trait</0>"
 msgstr "{who}: губи <0>лошу особину</0>"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:693
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:702
 msgid "{who}: now asks {value} over the market rate"
 msgstr "{who}: сада тражи {value} изнад тржишне плате"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:661
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:670
 msgid "{who}: training potential now {value}"
 msgstr "{who}: потенцијал за обуку је сада {value}"
 
@@ -1981,6 +1985,22 @@ msgstr "/ч макс."
 msgid "+{hiddenBattles} more battles"
 msgstr "+{hiddenBattles} битака"
 
+#: src/components/_economy/employee/training.frontConfig.tsx:66
+msgid "+{moraleCommon} base happiness."
+msgstr ""
+
+#: src/components/_economy/employee/training.frontConfig.tsx:68
+msgid "+{moraleEpic} base happiness."
+msgstr ""
+
+#: src/components/_economy/employee/training.frontConfig.tsx:69
+msgid "+{moraleLegendary} base happiness."
+msgstr ""
+
+#: src/components/_economy/employee/training.frontConfig.tsx:67
+msgid "+{moraleUncommon} base happiness."
+msgstr ""
+
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:199
 msgid "+{perPoint}% per point above {statPivot}, -{perPoint}% per point under."
 msgstr "+{perPoint}% по поену изнад {statPivot}, -{perPoint}% по поену испод."
@@ -1993,7 +2013,7 @@ msgstr "+{skillPerLevel}% по нивоу твог Лидерства."
 msgid "+{xpBonusPercent}%"
 msgstr "+{xpBonusPercent}%"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:47
+#: src/components/_economy/employee/training.frontConfig.tsx:55
 msgid "+1 to one stat."
 msgstr "+1 на један атрибут."
 
@@ -2001,27 +2021,27 @@ msgstr "+1 на један атрибут."
 msgid "+1% per {happinessDivisor} happiness above 50, -1% per {happinessDivisor} under."
 msgstr "+1% на сваких {happinessDivisor} задовољства изнад 50, -1% на сваких {happinessDivisor} испод."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:48
+#: src/components/_economy/employee/training.frontConfig.tsx:56
 msgid "+2 to one stat."
 msgstr "+2 на један атрибут."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:145
+#: src/components/_economy/employee/training.frontConfig.tsx:164
 msgid "+2 training potential: one session more than the draw just spent."
 msgstr "+2 потенцијала за обуку: једна обука више него што је ово извлачење потрошило."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:49
+#: src/components/_economy/employee/training.frontConfig.tsx:57
 msgid "+3 to one stat."
 msgstr "+3 на један атрибут."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:150
+#: src/components/_economy/employee/training.frontConfig.tsx:169
 msgid "+3 training potential: two sessions more than the draw just spent."
 msgstr "+3 потенцијала за обуку: две обуке више него што је ово извлачење потрошило."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:50
+#: src/components/_economy/employee/training.frontConfig.tsx:58
 msgid "+4 to one stat."
 msgstr "+4 на један атрибут."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:155
+#: src/components/_economy/employee/training.frontConfig.tsx:174
 msgid "+4 training potential: three sessions more than the draw just spent."
 msgstr "+4 потенцијала за обуку: три обуке више него што је ово извлачење потрошило."
 
@@ -2029,9 +2049,9 @@ msgstr "+4 потенцијала за обуку: три обуке више н
 msgid "<0/> & <1/>"
 msgstr "<0/> и <1/>"
 
-#: src/components/_economy/employee/TrainingCard.tsx:248
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:329
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:592
+#: src/components/_economy/employee/TrainingCard.tsx:274
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:338
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:601
 msgid "<0/> and <1/>"
 msgstr "<0/> и <1/>"
 
@@ -2261,8 +2281,8 @@ msgstr "<0/> напада у <1/>"
 msgid "<0/> is attacking your country in <1/>"
 msgstr "<0/> напада твоју земљу у <1/>"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:247
-#: src/components/_economy/employee/TrainingHistory.tsx:133
+#: src/components/_economy/employee/TrainingDraftModal.tsx:252
+#: src/components/_economy/employee/TrainingHistory.tsx:153
 msgid "<0/> is gone"
 msgstr "Уклоњено: <0/>"
 
@@ -2299,9 +2319,9 @@ msgstr "<0/> се придружио твојој компанији <1/> за �
 msgid "<0/> kicked <1/> from the conversation"
 msgstr "<0/> је избацио <1/> из разговора"
 
-#: src/components/_economy/employee/employeeStats.tsx:635
-#: src/components/_economy/employee/employeeStats.tsx:815
-#: src/components/_economy/employee/employeeStats.tsx:908
+#: src/components/_economy/employee/employeeStats.tsx:535
+#: src/components/_economy/employee/employeeStats.tsx:716
+#: src/components/_economy/employee/employeeStats.tsx:809
 msgid "<0/> left"
 msgstr "Још <0/>"
 
@@ -2469,35 +2489,35 @@ msgstr "<0/>Приоритет истиче за <1/>"
 msgid "<0>-{0}%</0> Resistance growth per hour"
 msgstr "<0>-{0}%</0> раст отпора по сату"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:760
+#: src/components/_economy/employee/employee.frontConfig.tsx:738
 msgid "<0>-1%</0> per 1% of employee tax, up to <1>-30%</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:670
+#: src/components/_economy/employee/employee.frontConfig.tsx:648
 msgid "<0>-1</0> to all stats every 20 days at the same company, up to <1>-3</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:453
+#: src/components/_economy/employee/employee.frontConfig.tsx:431
 msgid "<0>-15%</0> alongside their nemesis"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:520
+#: src/components/_economy/employee/employee.frontConfig.tsx:498
 msgid "<0>-15%</0> per female coworker, up to <1>-30%</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:506
+#: src/components/_economy/employee/employee.frontConfig.tsx:484
 msgid "<0>-15%</0> per male coworker, up to <1>-30%</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:608
+#: src/components/_economy/employee/employee.frontConfig.tsx:586
 msgid "<0>-20%</0> until storage reaches level <1>3</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:646
+#: src/components/_economy/employee/employee.frontConfig.tsx:624
 msgid "<0>-30%</0> for 3 days after a transfer"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:850
+#: src/components/_economy/employee/employee.frontConfig.tsx:828
 msgid "<0>-50%</0> below {quitThreshold} happiness"
 msgstr ""
 
@@ -2518,31 +2538,25 @@ msgstr "<0>{0}</0> против непријатеља <1/>"
 
 #. placeholder {0}: 2
 #. placeholder {1}: 10
-#: src/components/_economy/employee/employee.frontConfig.tsx:714
+#: src/components/_economy/employee/employee.frontConfig.tsx:692
 msgid "<0>{0}</0> and <1>{1}</1> in a homeland core region"
 msgstr ""
 
 #. placeholder {0}: -2
 #. placeholder {1}: -5
-#: src/components/_economy/employee/employee.frontConfig.tsx:266
+#: src/components/_economy/employee/employee.frontConfig.tsx:244
 msgid "<0>{0}</0> and <1>{1}</1> when any coworker is foreign"
-msgstr ""
-
-#. placeholder {0}: 2
-#. placeholder {1}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:248
-msgid "<0>{0}</0> and <1>{1}</1> when half or more coworkers are compatriots"
 msgstr ""
 
 #. placeholder {0}: -2
 #. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:732
+#: src/components/_economy/employee/employee.frontConfig.tsx:710
 msgid "<0>{0}</0> and <1>{1}</1> when working abroad"
 msgstr ""
 
 #. placeholder {0}: 3
 #. placeholder {1}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:536
+#: src/components/_economy/employee/employee.frontConfig.tsx:514
 msgid "<0>{0}</0> and <1>{1}</1> while producing their good"
 msgstr ""
 
@@ -2578,9 +2592,9 @@ msgstr "Такса од <0>{0}</0> враћена је ВЈ."
 
 #. placeholder {0}: -1
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:333
-#: src/components/_economy/employee/employee.frontConfig.tsx:351
-#: src/components/_economy/employee/employee.frontConfig.tsx:411
+#: src/components/_economy/employee/employee.frontConfig.tsx:311
+#: src/components/_economy/employee/employee.frontConfig.tsx:329
+#: src/components/_economy/employee/employee.frontConfig.tsx:389
 msgid "<0>{0}</0> for themselves"
 msgstr ""
 
@@ -2622,43 +2636,43 @@ msgid "<0>{0}</0> ground are required to win a round, points are gained every ti
 msgstr "За победу у рунди потребно је <0>{0}</0> поена терена, а поени се добијају на сваки тик"
 
 #. placeholder {0}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:578
+#: src/components/_economy/employee/employee.frontConfig.tsx:556
 msgid "<0>{0}</0> on anything manufactured"
 msgstr ""
 
 #. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:554
+#: src/components/_economy/employee/employee.frontConfig.tsx:532
 msgid "<0>{0}</0> on manufactured goods"
 msgstr ""
 
 #. placeholder {0}: -1
 #. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:560
-#: src/components/_economy/employee/employee.frontConfig.tsx:572
+#: src/components/_economy/employee/employee.frontConfig.tsx:538
+#: src/components/_economy/employee/employee.frontConfig.tsx:550
 msgid "<0>{0}</0> on raw resources"
 msgstr ""
 
 #. placeholder {0}: 2
 #. placeholder {1}: 6
-#: src/components/_economy/employee/employee.frontConfig.tsx:682
+#: src/components/_economy/employee/employee.frontConfig.tsx:660
 msgid "<0>{0}</0> per 10 years past 40, up to <1>{1}</1>"
 msgstr ""
 
 #. placeholder {0}: -2
 #. placeholder {1}: -6
-#: src/components/_economy/employee/employee.frontConfig.tsx:699
+#: src/components/_economy/employee/employee.frontConfig.tsx:677
 msgid "<0>{0}</0> per 10 years past 50, up to <1>{1}</1>"
 msgstr ""
 
 #. placeholder {0}: -5
 #. placeholder {1}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:429
+#: src/components/_economy/employee/employee.frontConfig.tsx:407
 msgid "<0>{0}</0> per better-paid coworker, up to <1>{1}</1>"
 msgstr ""
 
 #. placeholder {0}: 2
 #. placeholder {1}: 4
-#: src/components/_economy/employee/employee.frontConfig.tsx:279
+#: src/components/_economy/employee/employee.frontConfig.tsx:257
 msgid "<0>{0}</0> per foreign nationality among coworkers, up to <1>{1}</1>"
 msgstr ""
 
@@ -2680,16 +2694,15 @@ msgstr "<0>{0}</0> капацитет складишта"
 #. placeholder {0}: -10
 #. placeholder {0}: -2
 #. placeholder {0}: 10
-#: src/components/_economy/employee/employee.frontConfig.tsx:327
-#: src/components/_economy/employee/employee.frontConfig.tsx:363
-#: src/components/_economy/employee/employee.frontConfig.tsx:417
-#: src/components/_economy/employee/employee.frontConfig.tsx:904
-#: src/components/_economy/employee/employee.frontConfig.tsx:918
+#: src/components/_economy/employee/employee.frontConfig.tsx:305
+#: src/components/_economy/employee/employee.frontConfig.tsx:395
+#: src/components/_economy/employee/employee.frontConfig.tsx:882
+#: src/components/_economy/employee/employee.frontConfig.tsx:896
 msgid "<0>{0}</0> to every coworker"
 msgstr ""
 
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:345
+#: src/components/_economy/employee/employee.frontConfig.tsx:323
 msgid "<0>{0}</0> to every weaker coworker"
 msgstr ""
 
@@ -2700,33 +2713,28 @@ msgid "<0>{0}</0> to level {1}"
 msgstr "Још <0>{0}</0> до нивоа {1}"
 
 #. placeholder {0}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:399
+#: src/components/_economy/employee/employee.frontConfig.tsx:377
 msgid "<0>{0}</0> when they are not"
 msgstr ""
 
 #. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:744
+#: src/components/_economy/employee/employee.frontConfig.tsx:722
 msgid "<0>{0}</0> when working abroad"
 msgstr ""
 
 #. placeholder {0}: -10
-#: src/components/_economy/employee/employee.frontConfig.tsx:316
+#: src/components/_economy/employee/employee.frontConfig.tsx:294
 msgid "<0>{0}</0> when working alone"
 msgstr ""
 
 #. placeholder {0}: -1
-#: src/components/_economy/employee/employee.frontConfig.tsx:383
+#: src/components/_economy/employee/employee.frontConfig.tsx:361
 msgid "<0>{0}</0> while nobody out-produces them"
 msgstr ""
 
 #. placeholder {0}: 3
-#: src/components/_economy/employee/employee.frontConfig.tsx:377
+#: src/components/_economy/employee/employee.frontConfig.tsx:355
 msgid "<0>{0}</0> while somebody out-produces them"
-msgstr ""
-
-#. placeholder {0}: 2
-#: src/components/_economy/employee/employee.frontConfig.tsx:773
-msgid "<0>{0}</0> with employee tax at 20% or more"
 msgstr ""
 
 #. placeholder {0}: lawConfig.maintenanceCost
@@ -2747,77 +2755,81 @@ msgstr "<0>{bonus}</0> производње запослених"
 msgid "<0>{depositBonus}</0> from deposit resources in <1/>."
 msgstr "<0>{depositBonus}</0> од ресурса налазишта у <1/>."
 
-#: src/components/_economy/employee/employeeStats.tsx:349
-msgid "<0>{luck}</0> Luck. It finds toolboxes, improves training draws and moves the odds of every employee event."
+#: src/components/_economy/employee/employee.frontConfig.tsx:341
+msgid "<0>{foremanHappiness}</0> to every coworker"
+msgstr ""
+
+#: src/components/_economy/employee/employeeStats.tsx:323
+msgid "<0>{luck}</0> Luck: finds toolboxes, draws rarer training cards and tilts employee events."
+msgstr ""
+
+#: src/components/_economy/employee/employee.frontConfig.tsx:230
+msgid "<0>{nationalistHappiness}</0> when half or more coworkers are compatriots"
 msgstr ""
 
 #: src/components/_economy/employee/EmployeeSpecializations.tsx:41
 msgid "<0>{percentPerDay}</0> per day worked in a good, up to <1>{maxPercent}</1>. Each good keeps its own days, so a moved employee starts over in the new good and keeps the old bonus for later."
 msgstr "<0>{percentPerDay}</0> по дану рада на једном производу, највише <1>{maxPercent}</1>. Сваки производ има свој број дана, па премештени запослени на новом производу почиње од нуле, а стари бонус чува за касније."
 
+#: src/components/_economy/employee/employee.frontConfig.tsx:751
+msgid "<0>{statistHappiness}</0> with employee tax at {statistTaxAtLeast}% or more"
+msgstr ""
+
 #. placeholder {0}: fmt2(v / OUTPUT_DIVISOR)
-#: src/components/_economy/employee/employeeStats.tsx:259
+#: src/components/_economy/employee/employeeStats.tsx:236
 msgid "<0>{v}</0> Production ÷ {OUTPUT_DIVISOR} = <1>{0} points per hour</1>, before bonuses."
 msgstr "<0>{v}</0> Производње ÷ {OUTPUT_DIVISOR} = <1>{0} поена на сат</1>, пре бонуса."
 
-#: src/components/_economy/employee/employeeStats.tsx:462
-msgid "<0>{v}</0> Responsibility = <1>{shieldPct}% less</1> <2>Happiness</2> loss (max shield)."
-msgstr "<0>{v}</0> Одговорности = <1>{shieldPct}% мањи</1> губитак <2>Задовољства</2> (максималан штит)."
-
-#: src/components/_economy/employee/employeeStats.tsx:470
-msgid "<0>{v}</0> Responsibility = <1>{shieldPct}% less</1> <2>Happiness</2> loss."
-msgstr "<0>{v}</0> Одговорности = <1>{shieldPct}% мањи</1> губитак <2>Задовољства</2>."
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:931
+#: src/components/_economy/employee/employee.frontConfig.tsx:909
 msgid "<0>+1</0> candidate on every company's daily shortlist"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:658
+#: src/components/_economy/employee/employee.frontConfig.tsx:636
 msgid "<0>+1</0> to one stat every 10 days at the same company, up to <1>+4</1>"
 msgstr ""
 
 #. placeholder {0}: 5
-#: src/components/_economy/employee/employee.frontConfig.tsx:296
+#: src/components/_economy/employee/employee.frontConfig.tsx:274
 msgid "<0>+100%</0> and <1>{0}</1> when working alone"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:441
+#: src/components/_economy/employee/employee.frontConfig.tsx:419
 msgid "<0>+15%</0> alongside their friend"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:478
+#: src/components/_economy/employee/employee.frontConfig.tsx:456
 msgid "<0>+15%</0> per female coworker, up to <1>+30%</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:492
+#: src/components/_economy/employee/employee.frontConfig.tsx:470
 msgid "<0>+15%</0> per male coworker, up to <1>+30%</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:634
+#: src/components/_economy/employee/employee.frontConfig.tsx:612
 msgid "<0>+20%</0> after 30 days at the same company"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:465
+#: src/components/_economy/employee/employee.frontConfig.tsx:443
 msgid "<0>+20%</0> alongside their sweetheart"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:395
+#: src/components/_economy/employee/employee.frontConfig.tsx:373
 msgid "<0>+20%</0> when paid more than every coworker"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:311
+#: src/components/_economy/employee/employee.frontConfig.tsx:289
 msgid "<0>+25%</0> per coworker, up to <1>+50%</1>"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:234
+#: src/components/_economy/employee/employee.frontConfig.tsx:216
 msgid "<0>+25%</0> while holding no tool"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:222
+#: src/components/_economy/employee/employee.frontConfig.tsx:204
 msgid "<0>+40%</0> while holding a tool"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:622
+#: src/components/_economy/employee/employee.frontConfig.tsx:600
 msgid "<0>+50%</0> on their first day in a company"
 msgstr ""
 
@@ -2825,11 +2837,11 @@ msgstr ""
 msgid "<0>Armor</0> and <1>Dodge</1> have diminishing returns: each point is worth a bit less than the one before."
 msgstr "<0>Панцир</0> и <1>избегавање</1> имају опадајући учинак: сваки поен вреди мало мање од претходног."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:533
+#: src/components/_other/tour/tuto.frontConfig.tsx:528
 msgid "<0>Armor</0> and <1>Dodge</1>: less <2>Health</2> lost."
 msgstr "<0>Панцир</0> и <1>избегавање</1>: мањи губитак <2>здравља</2>."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:527
+#: src/components/_other/tour/tuto.frontConfig.tsx:522
 msgid "<0>Attack</0>, <1>Precision</1> and <2>Critical chance</2>: more damage."
 msgstr "<0>Напад</0>, <1>прецизност</1> и <2>шанса за критични удар</2>: више штете."
 
@@ -2853,7 +2865,7 @@ msgstr "<0>Тренутни развој</0> је укупан развој <1>�
 msgid "<0>Emotes</0> in chat"
 msgstr "<0>Емотикони</0> у ћаскању"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:403
+#: src/components/_other/tour/tuto.frontConfig.tsx:398
 msgid "<0>Energy</0> to work, <1>Stamina</1> to travel."
 msgstr "<0>Енергија</0> за рад, <1>кондиција</1> за путовања."
 
@@ -2878,19 +2890,19 @@ msgstr "<0>Сваки запослени у овој компанији прои
 msgid "<0>Filled with <1>Production Points</1> when you work, by your employees and by the automated engine.</0><2>Only the company owner can spend it to produce items.</2>"
 msgstr "<0>Пуни се <1>поенима производње</1> када радиш ти, твоји запослени и аутоматизовани механизам.</0><2>Само власник компаније може да троши те поене на производњу предмета.</2>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:824
+#: src/components/_economy/employee/employee.frontConfig.tsx:802
 msgid "<0>Half</0> Happiness losses"
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:400
+#: src/components/_other/tour/tuto.frontConfig.tsx:395
 msgid "<0>Health</0> to fight, <1>Hunger</1> to eat."
 msgstr "<0>Здравље</0> за борбу, <1>глад</1> за јело."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:151
+#: src/components/_other/tour/tuto.frontConfig.tsx:146
 msgid "<0>Luck</0>: finds toolboxes."
 msgstr "<0>Срећа</0>: проналази кутије с алатом."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:847
+#: src/components/_economy/employee/employee.frontConfig.tsx:825
 msgid "<0>Never</0> quits"
 msgstr ""
 
@@ -2902,13 +2914,9 @@ msgstr "<0>Прецизност</0> не иде преко 100%: сваки по
 msgid "<0>Production</0> stays in a company until you produce: it then turns into items, using the raw materials in your inventory."
 msgstr "<0>Производња</0> остаје у компанији док не произведеш: тада се претвара у предмете, уз утрошак сировина из твог инвентара."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:143
+#: src/components/_other/tour/tuto.frontConfig.tsx:142
 msgid "<0>Production</0>: what they make."
 msgstr "<0>Производња</0>: колико производи."
-
-#: src/components/_other/tour/tuto.frontConfig.tsx:147
-msgid "<0>Responsibility</0>: protects their <1>Happiness</1>."
-msgstr "<0>Одговорност</0>: чува <1>задовољство</1>."
 
 #. placeholder {0}: gameConfig?.unrest.contributionCost
 #. placeholder {1}: gameConfig?.unrest.contributionCost
@@ -2920,11 +2928,11 @@ msgstr "<0>Одговорност</0>: чува <1>задовољство</1>."
 msgid "<0>Unrest</0> represents internal tension in the country.<1/><2/>Citizens can <3>increase</3> or <4>decrease</4> unrest by spending <5>{0}</5> or <6>{1}</6> to change the bar by <7>{2}</7>.<8/><9/>When the bar is full, any party can vote via motion to start a <10>Civil war</10> (cost: <11>development × 10</11>, cooldown: {3}h). The battle takes place in the capital region, and <12>only citizens</12> can fight.<13/><14/>If revolutionaries win:<15/>- Government is impeached<16/>- Borders are opened for {4} days<17/>- Presidential elections begin<18/><19/>After a revolution, contributions are disabled for {5}h."
 msgstr "<0>Немир</0> представља унутрашње тензије у земљи.<1/><2/>Грађани могу да <3>повећају</3> или <4>смање</4> немир трошећи <5>{0}</5> или <6>{1}</6>, чиме померају траку за <7>{2}</7>.<8/><9/>Када се трака напуни, свака странка може путем предлога да гласа за покретање <10>грађанског рата</10> (трошак: <11>развој × 10</11>, период чекања: {3}ч). Битка се води у престоници и <12>само грађани</12> могу да се боре.<13/><14/>Ако револуционари победе:<15/>- Влада се смењује<16/>- Границе се отварају на {4} дана<17/>- Почињу председнички избори<18/><19/>Након револуције, доприноси су онемогућени {5}ч."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:590
+#: src/components/_economy/employee/employee.frontConfig.tsx:568
 msgid "<0>x2</0> specialization speed"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:881
+#: src/components/_economy/employee/employee.frontConfig.tsx:859
 msgid "<0>x2</0> toolbox chance and cap"
 msgstr ""
 
@@ -3509,11 +3517,11 @@ msgstr "Ниво просторије за одмор одређује коли�
 msgid "A core region of your country: your employees here get +{coreRegionBonusPercent}% production."
 msgstr "Матични регион твоје земље: твоји запослени овде добијају +{coreRegionBonusPercent}% производње."
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:340
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:349
 msgid "A coworker"
 msgstr "Један колега"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:458
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:467
 msgid "A coworker inherits one of their <0>good traits</0>"
 msgstr "Колега наслеђује једну од <0>добрих особина</0>"
 
@@ -3578,7 +3586,7 @@ msgstr "Свађа ни око чега. {name} и {partnerName} сада не �
 msgid "A friendship blooming"
 msgstr "Рађа се пријатељство"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:108
+#: src/components/_other/tour/tuto.frontConfig.tsx:107
 msgid "A full bar turns into items."
 msgstr "Пуна трака се претвара у предмете."
 
@@ -3614,8 +3622,8 @@ msgstr "Главни штаб војне јединице даје њеним ч
 msgid "A new job title"
 msgstr "Ново звање"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:524
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:732
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:533
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:741
 msgid "A new tool: {value}"
 msgstr "Нови алат: {value}"
 
@@ -3647,11 +3655,11 @@ msgstr "Насумичан алат за запослене"
 msgid "A random resource stack"
 msgstr "Насумичан пакет ресурса"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:115
+#: src/components/_economy/employee/training.frontConfig.tsx:134
 msgid "A random trait, good or bad, only revealed once picked. Also raises a random stat."
 msgstr "Насумична особина, добра или лоша, која се открива тек кад је изабереш. Уз то повећава насумичан атрибут."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:122
+#: src/components/_economy/employee/training.frontConfig.tsx:141
 msgid "A random trait, good or bad, revealed only once picked, and +1 to a random stat."
 msgstr "Насумична особина, добра или лоша, која се открива тек кад је изабереш, и +1 на насумичан атрибут."
 
@@ -3734,10 +3742,6 @@ msgstr "Потпуно нова особа, у најбољем смислу."
 #: src/components/_common/GameRules.tsx:241
 msgid "a. Insults, slurs and targeted harassment"
 msgstr "а. Увреде, погрдни изрази и циљано узнемиравање"
-
-#: src/components/_economy/employee/employeeStats.tsx:365
-msgid "About {dayPct}% a day"
-msgstr "Око {dayPct}% дневно"
 
 #: src/components/_user/user/EnergyGiftAlert.tsx:34
 msgid "Above your bar's max, the extra is lost at the next hourly regen."
@@ -4402,7 +4406,7 @@ msgstr "Питај како се завршава"
 msgid "Ask them to push through"
 msgstr "Тражи да изгура"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:474
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:483
 msgid "Asks for {value} pay from now on"
 msgstr "Од сада тражи {value} плате"
 
@@ -4598,15 +4602,15 @@ msgstr "Аватар уклоњен"
 msgid "Average development"
 msgstr "Просечан развој"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:251
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:249
 msgid "Away"
 msgstr "Одсуство"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:245
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:243
 msgid "Away for <0/>: no work, no wage."
 msgstr "Одсуство још <0/>: без рада и без плате."
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:148
+#: src/components/_economy/employee/EmployeeTooltip.tsx:144
 msgid "Away, no work and no wage"
 msgstr "Одсуство: без рада и без плате"
 
@@ -4708,8 +4712,8 @@ msgstr "Банери"
 msgid "Bans"
 msgstr "Банови"
 
-#: src/components/_economy/employee/employeeStats.tsx:193
-#: src/components/_economy/employee/employeeStats.tsx:803
+#: src/components/_economy/employee/employeeStats.tsx:170
+#: src/components/_economy/employee/employeeStats.tsx:704
 msgid "Base"
 msgstr "Основа"
 
@@ -4720,6 +4724,10 @@ msgstr "Основна шанса"
 #: src/components/_political/law/LawCostExplanation.tsx:38
 msgid "Base cost"
 msgstr "Основна цена"
+
+#: src/components/_economy/employee/TrainingCard.tsx:198
+msgid "Base happiness"
+msgstr ""
 
 #: src/utils/translations.tsx:213
 msgid "Basic Boots"
@@ -4911,7 +4919,7 @@ msgstr "Батина од кости"
 msgid "Bonus damages"
 msgstr "Бонус штета"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:265
+#: src/components/_other/tour/tuto.frontConfig.tsx:260
 msgid "Boost your Energy!"
 msgstr "Појачај енергију!"
 
@@ -4929,11 +4937,11 @@ msgstr "Границе су отворене након револуције: с
 msgid "Borders are open: this country was just created, every application is accepted for <0/>"
 msgstr "Границе су отворене: ова земља је тек основана, па се свака пријава прихвата још <0/>"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:333
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:342
 msgid "Both"
 msgstr "Обоје"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:446
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:455
 msgid "Both become <0/>"
 msgstr "Обоје добијају особину <0/>"
 
@@ -4992,11 +5000,11 @@ msgstr "Бригадир"
 msgid "Bro won last tournament."
 msgstr "Бураз је освојио прошли турнир."
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:207
+#: src/components/_economy/employee/EmployeeTooltip.tsx:203
 msgid "broken"
 msgstr "покварен"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:380
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:371
 #: src/components/_economy/inventory/Inventory.tsx:772
 msgid "Broken"
 msgstr "Покварено"
@@ -5047,7 +5055,7 @@ msgstr "Изгради компанију"
 msgid "Build a military unit"
 msgstr "Изгради војну јединицу"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:485
+#: src/components/_other/tour/tuto.frontConfig.tsx:480
 msgid "Build a second company!"
 msgstr "Направи другу компанију!"
 
@@ -5256,7 +5264,7 @@ msgstr "Отказао администратор"
 msgid "Candidacy is open for <0/>"
 msgstr "Кандидатура је отворена за <0/>"
 
-#: src/components/_economy/employee/employeeCards.tsx:220
+#: src/components/_economy/employee/employeeCards.tsx:223
 #: src/components/_political/election/CandidateFormModal.tsx:82
 msgid "Candidate"
 msgstr "Кандидат"
@@ -5275,7 +5283,7 @@ msgstr "Престоница"
 msgid "Capital of"
 msgstr "Престоница државе"
 
-#: src/components/_economy/employee/employeeStats.tsx:363
+#: src/components/_economy/employee/employeeStats.tsx:346
 msgid "Capped at {cappedPct}%"
 msgstr "Ограничено на {cappedPct}%"
 
@@ -5311,8 +5319,8 @@ msgstr "Карте"
 msgid "Care"
 msgstr "Побрини се"
 
-#: src/components/_economy/employee/employeeStats.tsx:744
-#: src/components/_economy/employee/employeeStats.tsx:891
+#: src/components/_economy/employee/employeeStats.tsx:643
+#: src/components/_economy/employee/employeeStats.tsx:792
 msgid "Cared for by manager"
 msgstr "Пажња менаџера"
 
@@ -5364,7 +5372,7 @@ msgstr "Шанса за избегавање све долазне штете т
 msgid "Chance to hit the target.<0/>Misses cannot crit, and deal half damage."
 msgstr "Шанса да погодиш мету.<0/>Промашаји не могу бити критични и наносе пола штете."
 
-#: src/components/_economy/employee/employeeStats.tsx:858
+#: src/components/_economy/employee/employeeStats.tsx:759
 msgid "Chance to quit"
 msgstr "Шанса за отказ"
 
@@ -5467,7 +5475,7 @@ msgstr "Најјефтиније"
 msgid "Check the numbers first"
 msgstr "Прво провери бројеве"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:202
+#: src/components/_other/tour/tuto.frontConfig.tsx:197
 msgid "Check your loot!"
 msgstr "Провери свој плен!"
 
@@ -5513,7 +5521,7 @@ msgstr "Изабери шему боја"
 msgid "Choose Font"
 msgstr "Изабери фонт"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:171
+#: src/components/_other/tour/tuto.frontConfig.tsx:166
 msgid "Choose one. The others are discarded."
 msgstr "Изабери једну. Остале се одбацују."
 
@@ -5582,7 +5590,7 @@ msgstr "Преузми награду"
 msgid "Claim the toolbox"
 msgstr "Преузми кутију с алатом"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:229
+#: src/components/_other/tour/tuto.frontConfig.tsx:224
 msgid "Claim your missions!"
 msgstr "Преузми награде за мисије!"
 
@@ -5606,7 +5614,7 @@ msgstr "Преузето!"
 msgid "Claustrophobe"
 msgstr "Клаустрофобија"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:79
+#: src/components/_economy/employee/training.frontConfig.tsx:98
 msgid "Clean slate"
 msgstr "Чист лист"
 
@@ -5620,19 +5628,19 @@ msgstr "Очисти"
 msgid "Clear selection"
 msgstr "Поништи избор"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:80
+#: src/components/_economy/employee/training.frontConfig.tsx:99
 msgid "Clears every bad trait at once."
 msgstr "Уклања све лоше особине одједном."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:83
+#: src/components/_economy/employee/training.frontConfig.tsx:102
 msgid "Clears every bad trait they carry, in one card. Only dealt to an employee with at least two of them. Mixed traits are left alone."
 msgstr "Једном картом уклања све лоше особине. Добија је само запослени са бар две лоше особине. Мешовите особине остају."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:73
+#: src/components/_economy/employee/training.frontConfig.tsx:92
 msgid "Clears one bad trait, such as Xenophobe or Burnout."
 msgstr "Уклања једну лошу особину, као што су Ксенофобија или Сагоревање."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:70
+#: src/components/_economy/employee/training.frontConfig.tsx:89
 msgid "Clears one mixed trait, such as Sociable or Comic."
 msgstr "Уклања једну мешовиту особину, као што су Друштвеност или Шаљивџија."
 
@@ -5959,7 +5967,7 @@ msgstr "Модератор садржаја"
 msgid "Contextual borders"
 msgstr "Контекстуалне границе"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:463
+#: src/components/_economy/employee/TrainingDraftModal.tsx:468
 #: src/components/_economy/employeeEvent/EmployeeEventModal.tsx:697
 msgid "Continue"
 msgstr "Настави"
@@ -6051,7 +6059,7 @@ msgid "Core development of <0/>"
 msgstr "Матични развој земље <0/>"
 
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:221
-#: src/components/_economy/employee/employeeStats.tsx:585
+#: src/components/_economy/employee/employeeStats.tsx:485
 msgid "Core region"
 msgstr "Матични регион"
 
@@ -6163,11 +6171,11 @@ msgstr "Победник турнира земље"
 msgid "Country wars"
 msgstr "Ратови земље"
 
-#: src/components/_economy/employee/employeeStats.tsx:742
+#: src/components/_economy/employee/employeeStats.tsx:641
 msgid "Coworker fired"
 msgstr "Отпуштен колега"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:181
+#: src/components/_economy/employee/EmployeeModal.tsx:178
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:45
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:142
 msgid "Coworkers"
@@ -6286,7 +6294,7 @@ msgstr "Крит. шанса"
 msgid "Crit. damages"
 msgstr "Крит. штета"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:870
+#: src/components/_economy/employee/employee.frontConfig.tsx:848
 msgid "Critical event outcomes, good or bad, twice as often"
 msgstr ""
 
@@ -6386,7 +6394,7 @@ msgstr "Дневно одржавање"
 msgid "Daily Missions Reset"
 msgstr "Ресет дневних мисија"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:764
+#: src/components/_economy/employee/EmployeeModal.tsx:761
 msgid "Daily output"
 msgstr "Дневни учинак"
 
@@ -6394,11 +6402,11 @@ msgstr "Дневни учинак"
 msgid "Daily pay"
 msgstr "Дневна плата"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:135
+#: src/components/_economy/employee/EmployeeModal.tsx:132
 msgid "Daily production"
 msgstr "Дневна производња"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:778
+#: src/components/_economy/employee/EmployeeModal.tsx:775
 msgid "Daily profit"
 msgstr "Дневни профит"
 
@@ -6406,7 +6414,7 @@ msgstr "Дневни профит"
 msgid "Daily revenue"
 msgstr "Дневни приход"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:773
+#: src/components/_economy/employee/EmployeeModal.tsx:770
 msgid "Daily wage"
 msgstr "Дневна плата"
 
@@ -6414,7 +6422,7 @@ msgstr "Дневна плата"
 msgid "Daily wage paid from the country treasury."
 msgstr "Дневна плата исплаћена из државног буџета."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:237
+#: src/components/_other/tour/tuto.frontConfig.tsx:232
 msgid "Daily, weekly and monthly missions refresh on their own. Each tab shows when."
 msgstr "Дневне, недељне и месечне мисије се саме обнављају. На свакој картици пише када."
 
@@ -6748,7 +6756,7 @@ msgstr "Небрушени дијамант"
 msgid "Diamonds"
 msgstr "Дијаманти"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:101
+#: src/components/_economy/employee/employee.frontConfig.tsx:89
 msgid "Died in a battle fought over the region they worked in."
 msgstr "Жртва битке вођене за регион у којем је радно место."
 
@@ -6963,15 +6971,15 @@ msgstr "Шансе извлачења"
 msgid "Dressed to kill"
 msgstr "Убитачно елегантна"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:43
+#: src/components/_economy/employee/training.frontConfig.tsx:51
 msgid "Drill"
 msgstr "Вежба"
 
-#: src/components/_economy/employee/employeeStats.tsx:546
+#: src/components/_economy/employee/employeeStats.tsx:446
 msgid "Drops too low and they can quit."
 msgstr "Ако превише падне, расте ризик од отказа."
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:219
+#: src/components/_economy/employee/EmployeeTooltip.tsx:215
 msgid "Durability {durability}/{maxDurability}"
 msgstr "Издржљивост {durability}/{maxDurability}"
 
@@ -6987,7 +6995,7 @@ msgstr "е. Садржај о актуелним стварним ратовим
 msgid "Each item starts at the price of the offer with the closest stats. Tap an offer to undercut it by 0.001."
 msgstr "Почетна цена сваког предмета је цена понуде са најсличнијим карактеристикама. Додирни понуду да поставиш цену за 0.001 нижу од ње."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:464
+#: src/components/_other/tour/tuto.frontConfig.tsx:459
 msgid "Each level fits one more employee."
 msgstr "Сваки ниво прима још једног запосленог."
 
@@ -6995,7 +7003,7 @@ msgstr "Сваки ниво прима још једног запосленог.
 msgid "Each level of your Leadership moves {MOVED_PER_LEVEL}% of the draws from Common to the rarer cards."
 msgstr "Сваки ниво твог Лидерства пребацује {MOVED_PER_LEVEL}% извлачења са Обичних на ређе карте."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:254
+#: src/components/_other/tour/tuto.frontConfig.tsx:249
 msgid "Each level opens something new."
 msgstr "Сваки ниво откључава нешто ново."
 
@@ -7014,21 +7022,21 @@ msgstr "Сваки поен менаџмента додаје <0>{perPoint}</0> 
 msgid "Each meal costs <0>1</0>. <1>{0}</1> restores {breadRegen}% of your max <2>Health</2>, <3>{1}</3> {steakRegen}% and <4>{2}</4> {cookedFishRegen}%."
 msgstr "Сваки оброк кошта <0>1</0>. <1>{0}</1> враћа {breadRegen}% максималног <2>здравља</2>, <3>{1}</3> {steakRegen}%, а <4>{2}</4> {cookedFishRegen}%."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:377
+#: src/components/_other/tour/tuto.frontConfig.tsx:372
 msgid "Each meal refills your <0>Health</0> and uses <1>Hunger</1>."
 msgstr "Сваки оброк ти враћа <0>здравље</0> и троши <1>глад</1>."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:575
+#: src/components/_other/tour/tuto.frontConfig.tsx:570
 msgid "Each one leads to the next."
 msgstr "Сваки води до следећег."
 
 #. placeholder {0}: LUCK_CHECK.statPerPoint
 #. placeholder {1}: LUCK_CHECK.luckPerPoint
-#: src/components/_economy/employee/employeeStats.tsx:330
+#: src/components/_economy/employee/employeeStats.tsx:307
 msgid "Each point is a {LUCK_PER_POINT_PCT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PCT}%), tilts training draws toward the rarer cards, and adds {0}% to the Luck checks of employee events, {1}% to every other check."
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:153
+#: src/components/_economy/employee/employee.frontConfig.tsx:129
 msgid "Each point is a {LUCK_PERCENT_PER_POINT}% chance per worked hour to find a toolbox (up to {LUCK_MAX_PERCENT}%), tilts training draws toward the rarer cards, and improves the odds of every employee event, Luck checks most."
 msgstr ""
 
@@ -7069,7 +7077,7 @@ msgstr "Поједи бифтек"
 msgid "Eat the beige"
 msgstr "Једи беж"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:375
+#: src/components/_other/tour/tuto.frontConfig.tsx:370
 msgid "Eat up to 3 times!"
 msgstr "Једи до 3 пута!"
 
@@ -7085,7 +7093,7 @@ msgstr "Економски закони"
 msgid "Economic skills"
 msgstr "Економске вештине"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:627
+#: src/components/_other/tour/tuto.frontConfig.tsx:622
 msgid "Economy"
 msgstr "Економија"
 
@@ -7213,10 +7221,10 @@ msgstr "Елитне панталоне"
 msgid "Embrace the curse"
 msgstr "Пригрли клетву"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:643
+#: src/components/_economy/employee/EmployeeModal.tsx:640
 #: src/components/_economy/employee/EmployeeName.tsx:71
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:189
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:272
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:188
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:270
 #: src/components/_economy/employee/employeeTags.tsx:262
 #: src/components/_economy/employee/MoveEmployeeModal.tsx:86
 msgid "Employee"
@@ -7226,7 +7234,6 @@ msgstr "Запослени"
 msgid "Employee cared for"
 msgstr "Пажња посвећена запосленом"
 
-#: src/components/_economy/employee/employeeStats.tsx:393
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:150
 #: src/components/_user/notification/notification.frontConfig.tsx:2207
 msgid "Employee events"
@@ -7259,7 +7266,7 @@ msgstr "Запослени је преименован!"
 #: src/components/_economy/company/CompanyTags.tsx:59
 #: src/components/_economy/company/CompanyTags.tsx:72
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:197
-#: src/components/_economy/employee/employeeStats.tsx:740
+#: src/components/_economy/employee/employeeStats.tsx:639
 #: src/components/_political/country/CountryTaxes.tsx:21
 #: src/components/_political/law/law.frontConfig.tsx:66
 #: src/components/_political/region/IncomeEstimateBreakdown.tsx:64
@@ -7376,7 +7383,6 @@ msgstr "Унеси код који смо послали на твој имеј�
 msgid "Envious"
 msgstr "Завист"
 
-#: src/components/_economy/employee/employeeStats.tsx:132
 #: src/components/_user/user/EcoSkillEffects.tsx:28
 msgid "Epic"
 msgstr "Епска"
@@ -7465,11 +7471,15 @@ msgstr "Процењена вредност"
 msgid "Eureka"
 msgstr "Еурека"
 
-#: src/components/_economy/employee/employeeStats.tsx:71
-#: src/components/_economy/employee/employeeStats.tsx:571
-#: src/components/_economy/employee/employeeStats.tsx:746
+#: src/components/_economy/employee/employeeStats.tsx:70
+#: src/components/_economy/employee/employeeStats.tsx:471
+#: src/components/_economy/employee/employeeStats.tsx:645
 msgid "Event"
 msgstr "Догађај"
+
+#: src/components/_economy/employee/employeeStats.tsx:359
+msgid "Event Luck checks"
+msgstr ""
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:180
 #: src/components/_layout/LayoutRightIcons.tsx:265
@@ -7482,7 +7492,7 @@ msgstr "Догађаји"
 msgid "Events about {lead} and others were decided while you were away."
 msgstr "Док те није било, решени су догађаји у којима учествују {lead} и остали."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:336
+#: src/components/_other/tour/tuto.frontConfig.tsx:331
 msgid "Every 2 minutes, the side with more <0>Damages</0> gains <1>Ground</1>. Your hits count."
 msgstr "На свака 2 минута страна са више <0>штете</0> осваја <1>терен</1>. Сваки твој ударац се рачуна."
 
@@ -7527,7 +7537,7 @@ msgstr "Сви мачићи су удомљени међу запосленим�
 msgid "Every level gives skill points and opens something new. Here is the way to the top."
 msgstr "Сваки ниво доноси поене вештина и откључава нешто ново. Ево пута до врха."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:260
+#: src/components/_other/tour/tuto.frontConfig.tsx:255
 msgid "Every level gives skill points. Tap Skills."
 msgstr "Сваки ниво доноси поене вештина. Додирни „Вештине“."
 
@@ -7535,11 +7545,7 @@ msgstr "Сваки ниво доноси поене вештина. Додирн
 msgid "Every mission you ever completed and claimed"
 msgstr "Све мисије које си икада завршио и преузео"
 
-#: src/components/_economy/employee/employeeStats.tsx:402
-msgid "Every other check"
-msgstr "Све остале провере"
-
-#: src/components/_economy/employee/employeeStats.tsx:617
+#: src/components/_economy/employee/employeeStats.tsx:517
 msgid "Every percent that scales what their <0>Production</0> banks, added together."
 msgstr "Збир свих процената који утичу на оно што <0>Производња</0> доноси."
 
@@ -7568,7 +7574,7 @@ msgstr "Свако добија столицу. Данима нико не ус�
 msgid "Everyone hangs in there. Some of them resent it."
 msgstr "Сви се држе. Неки кроз зубе."
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:338
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:347
 msgid "Everyone in the company"
 msgstr "Сви у компанији"
 
@@ -7621,25 +7627,25 @@ msgstr "Гастарбајтер"
 msgid "Expected loot"
 msgstr "Очекивани плен"
 
-#: src/components/_economy/employee/TrainingCard.tsx:300
-#: src/components/_economy/employee/TrainingDraftModal.tsx:256
+#: src/components/_economy/employee/TrainingCard.tsx:326
+#: src/components/_economy/employee/TrainingDraftModal.tsx:261
 msgid "Expected wage"
 msgstr "Очекивана плата"
 
 #. placeholder {0}: Math.round(entry.delta * 100)
-#: src/components/_economy/employee/TrainingHistory.tsx:141
+#: src/components/_economy/employee/TrainingHistory.tsx:161
 msgid "Expected wage <0>-{0}%</0>"
 msgstr "Очекивана плата <0>-{0}%</0>"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:800
+#: src/components/_economy/employee/employee.frontConfig.tsx:778
 msgid "Expects <0>15%</0> less pay than the market rate"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:811
+#: src/components/_economy/employee/employee.frontConfig.tsx:789
 msgid "Expects <0>2%</0> more pay for every week hired"
 msgstr ""
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:789
+#: src/components/_economy/employee/employee.frontConfig.tsx:767
 msgid "Expects <0>20%</0> more pay than the market rate"
 msgstr ""
 
@@ -7686,7 +7692,7 @@ msgstr "Злоупотребљени налози биће трајно бано
 msgid "Exploiting or ignoring bugs for personal gain is forbidden. All players are expected to report any discovered bugs and avoid taking advantage of them."
 msgstr "Злоупотреба или игнорисање грешака ради личне користи је забрањена. Сви играчи су дужни да пријаве откривене грешке и да их не користе у своју корист."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:545
+#: src/components/_other/tour/tuto.frontConfig.tsx:540
 msgid "Explore the map!"
 msgstr "Истражи мапу!"
 
@@ -7786,7 +7792,7 @@ msgstr "Бори се за <0/> у <1/>"
 msgid "Fight for <0/> in<1/><2/>"
 msgstr "Бори се за <0/> у<1/><2/>"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:304
+#: src/components/_other/tour/tuto.frontConfig.tsx:299
 msgid "Fight for your country. Tap Battles."
 msgstr "Бори се за своју земљу. Додирни „Битке“."
 
@@ -7795,7 +7801,7 @@ msgstr "Бори се за своју земљу. Додирни „Битке�
 msgid "Fight skills"
 msgstr "Борбене вештине"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:345
+#: src/components/_other/tour/tuto.frontConfig.tsx:340
 msgid "Fight!"
 msgstr "Бори се!"
 
@@ -7876,7 +7882,7 @@ msgstr "Сазнај чија је"
 msgid "Find them homes among the staff"
 msgstr "Удоми их међу запосленима"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:230
+#: src/components/_other/tour/tuto.frontConfig.tsx:225
 msgid "Finished missions give XP. Claim them all."
 msgstr "Завршене мисије доносе XP. Преузми све."
 
@@ -7884,7 +7890,7 @@ msgstr "Завршене мисије доносе XP. Преузми све."
 msgid "Finished: your reward is waiting"
 msgstr "Завршено: награда те чека"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:394
+#: src/components/_economy/employee/EmployeeModal.tsx:391
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:264
 #: src/components/_political/government/Government.tsx:263
 msgid "Fire"
@@ -7915,11 +7921,11 @@ msgstr "Смењен из владе"
 msgid "Firestorm Skillet"
 msgstr "Огњени тигањ"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:325
+#: src/components/_other/tour/tuto.frontConfig.tsx:320
 msgid "First side to reach <0>{pointsToWinRound}</0> Ground wins the round."
 msgstr "Рунду добија страна која прва стигне до <0>{pointsToWinRound}</0> поена терена."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:317
+#: src/components/_other/tour/tuto.frontConfig.tsx:312
 msgid "First side to win {roundsToWin} rounds wins the battle."
 msgstr "Битку добија страна која прва освоји {roundsToWin} рунди."
 
@@ -8024,7 +8030,7 @@ msgstr "Ковани чекић"
 msgid "Forget you heard it"
 msgstr "Заборави на то"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:479
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:488
 msgid "Forgets their experience in {good}"
 msgstr "Губи искуство ({good})"
 
@@ -8127,11 +8133,11 @@ msgstr "Коцкарски дугови"
 msgid "Game supporter"
 msgstr "Подржавалац игре"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:632
+#: src/components/_other/tour/tuto.frontConfig.tsx:627
 msgid "Gear"
 msgstr "Опрема"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:448
+#: src/components/_other/tour/tuto.frontConfig.tsx:443
 msgid "Gear up!"
 msgstr "Опреми се!"
 
@@ -8208,11 +8214,11 @@ msgstr "Набави више скинова одједном уз попуст 
 msgid "Get supporter plan"
 msgstr "Активирај претплату подржаваоца"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:358
+#: src/components/_other/tour/tuto.frontConfig.tsx:353
 msgid "Get to the front!"
 msgstr "На фронт!"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:67
+#: src/components/_economy/employee/training.frontConfig.tsx:86
 msgid "Gets rid of a bad trait for good."
 msgstr "Трајно уклања лошу особину."
 
@@ -8321,7 +8327,7 @@ msgstr "Преруши се и ти"
 msgid "Gold"
 msgstr "Злато"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:117
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:116
 msgid "Gone"
 msgstr "Ван компаније"
 
@@ -8366,7 +8372,7 @@ msgstr "Плата чланова владе"
 msgid "Grab whatever cake the shop has left"
 msgstr "Узми шта је остало од торти"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:572
+#: src/components/_other/tour/tuto.frontConfig.tsx:567
 msgid "Grab your wooden cases!"
 msgstr "Покупи дрвене сандучиће!"
 
@@ -8462,7 +8468,7 @@ msgstr "Гримдарк снајпер"
 msgid "Grimdark Tank"
 msgstr "Гримдарк тенк"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:323
+#: src/components/_other/tour/tuto.frontConfig.tsx:318
 #: src/components/_user/user/UserRankingsPanel.tsx:44
 msgid "Ground"
 msgstr "Терен"
@@ -8573,10 +8579,10 @@ msgid "Hang in there"
 msgstr "Држи се"
 
 #: src/components/_economy/company/CompanyTags.tsx:78
-#: src/components/_economy/employee/employeeStats.tsx:555
-#: src/components/_economy/employee/employeeStats.tsx:587
-#: src/components/_economy/employee/employeeStats.tsx:965
-#: src/components/_economy/employee/EmployeeTooltip.tsx:117
+#: src/components/_economy/employee/employeeStats.tsx:455
+#: src/components/_economy/employee/employeeStats.tsx:487
+#: src/components/_economy/employee/employeeStats.tsx:866
+#: src/components/_economy/employee/EmployeeTooltip.tsx:116
 #: src/components/_economy/employee/WorkforceSummary.tsx:317
 #: src/components/_economy/employeeEvent/EventOddsFactors.tsx:159
 msgid "Happiness"
@@ -8715,7 +8721,7 @@ msgstr "Помози члановима ВЈ"
 msgid "Help the game to grow"
 msgstr "Помози игри да расте"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:749
+#: src/components/_economy/employee/EmployeeModal.tsx:746
 msgid "hidden"
 msgstr "скривено"
 
@@ -8736,7 +8742,7 @@ msgstr "Сакриј резултате"
 msgid "High Commander"
 msgstr "Високи командант"
 
-#: src/components/_economy/employee/employeeCards.tsx:251
+#: src/components/_economy/employee/employeeCards.tsx:262
 msgid "Hire"
 msgstr "Запосли"
 
@@ -8753,11 +8759,11 @@ msgstr "Запосли радника"
 msgid "Hire an employee in one of your companies"
 msgstr "Запосли радника у некој од својих компанија"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:469
+#: src/components/_other/tour/tuto.frontConfig.tsx:464
 msgid "Hire another employee!"
 msgstr "Запосли још некога!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:114
+#: src/components/_other/tour/tuto.frontConfig.tsx:113
 msgid "Hire your first employee!"
 msgstr "Време је за првог запосленог!"
 
@@ -8785,7 +8791,7 @@ msgstr "Бар 7 дана стажа и задовољство {mood} или в�
 msgid "Hiring an employee costs <0>{hireEnergyCost}</0> and no money. New candidates show up every day."
 msgstr "Запошљавање кошта само <0>{hireEnergyCost}</0>, без новца. Нови кандидати стижу сваког дана."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:122
+#: src/components/_other/tour/tuto.frontConfig.tsx:121
 msgid "Hiring costs <0>Energy</0>."
 msgstr "Запошљавање троши <0>енергију</0>."
 
@@ -8797,7 +8803,7 @@ msgstr "Историја"
 msgid "Hit"
 msgstr "Ударац"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:388
+#: src/components/_other/tour/tuto.frontConfig.tsx:383
 msgid "Hit until your <0>Health</0> runs out again."
 msgstr "Ударај док ти опет не нестане <0>здравља</0>."
 
@@ -8899,7 +8905,7 @@ msgstr "Поносан сам на тебе"
 msgid "ID No."
 msgstr "Бр. документа"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:382
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:373
 #: src/components/_economy/inventory/Inventory.tsx:774
 msgid "Idle"
 msgstr "Мирује"
@@ -8916,7 +8922,7 @@ msgstr "Ако је негативан, плати <0/> за <1/> (једном 
 msgid "If the new nominee is already in government, their positions will be swapped. Otherwise the current member will be fired and won't be able to be nominated again for {cooldownDays} days."
 msgstr "Ако је нови кандидат већ у влади, они ће заменити позиције. У супротном, тренутни члан ће бити отпуштен и неће моћи поново да буде номинован наредних {cooldownDays} дана."
 
-#: src/components/_economy/employee/employeeStats.tsx:542
+#: src/components/_economy/employee/employeeStats.tsx:442
 msgid "If your choices put them here, <0>{quitText}%/h</0> chance to quit."
 msgstr "Ако твоје одлуке доведу морал довде, шанса за отказ је <0>{quitText}%/ч</0>."
 
@@ -9017,7 +9023,7 @@ msgstr "Инспирација"
 msgid "Install a fake thermostat"
 msgstr "Угради лажни термостат"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:41
+#: src/components/_economy/employee/training.frontConfig.tsx:49
 msgid "Intensive drill"
 msgstr "Интензивна вежба"
 
@@ -9029,7 +9035,7 @@ msgstr "Намерно или поновљено кршење ове полит�
 msgid "Interview him"
 msgstr "Позови га на разговор"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:429
+#: src/components/_other/tour/tuto.frontConfig.tsx:424
 msgid "Introduce yourself!"
 msgstr "Представи се!"
 
@@ -9111,7 +9117,7 @@ msgstr "Одувек се тако димио"
 msgid "It has, apparently, always done that."
 msgstr "Изгледа да се стварно одувек тако димио."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:209
+#: src/components/_other/tour/tuto.frontConfig.tsx:204
 msgid "It holds random items. Tap it."
 msgstr "У њему су насумични предмети. Додирни га."
 
@@ -9119,7 +9125,7 @@ msgstr "У њему су насумични предмети. Додирни г�
 msgid "It is not cursed"
 msgstr "Није уклет"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:500
+#: src/components/_other/tour/tuto.frontConfig.tsx:495
 msgid "It needs employees to produce."
 msgstr "Без запослених нема производње."
 
@@ -9186,11 +9192,11 @@ msgstr "Понуда предмета"
 msgid "Items"
 msgstr "Предмети"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:557
+#: src/components/_other/tour/tuto.frontConfig.tsx:552
 msgid "Its country and alliance."
 msgstr "Његова земља и савез."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:556
+#: src/components/_other/tour/tuto.frontConfig.tsx:551
 msgid "Its daily income and companies."
 msgstr "Његов дневни приход и компаније."
 
@@ -9287,7 +9293,7 @@ msgstr "Придружи се свету"
 msgid "Join unrest"
 msgstr "Учешће у немирима"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:423
+#: src/components/_other/tour/tuto.frontConfig.tsx:418
 msgid "Join your country chat!"
 msgstr "Придружи се ћаскању своје земље!"
 
@@ -9323,7 +9329,7 @@ msgstr "Настави да јуриш митску опрему"
 msgid "Keep feeding it sandwiches"
 msgstr "Храни машину сендвичима"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:386
+#: src/components/_other/tour/tuto.frontConfig.tsx:381
 msgid "Keep fighting!"
 msgstr "Настави да се бориш!"
 
@@ -9347,7 +9353,7 @@ msgstr "Задржи их"
 msgid "Keep them all"
 msgstr "Задржи их све"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:518
+#: src/components/_other/tour/tuto.frontConfig.tsx:513
 msgid "Keep training them to increase your profit."
 msgstr "Настави да их обучаваш и добит ће расти."
 
@@ -9389,7 +9395,7 @@ msgstr "Избаци земљу"
 msgid "Kick Member"
 msgstr "Избаци члана"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:99
+#: src/components/_economy/employee/employee.frontConfig.tsx:87
 msgid "Killed"
 msgstr "Погибија"
 
@@ -9430,7 +9436,7 @@ msgstr "Последњи пут освојено: <0/>"
 msgid "Last gifts"
 msgstr "Последњи поклони"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:283
+#: src/components/_other/tour/tuto.frontConfig.tsx:278
 msgid "Last one! Tap Milestones."
 msgstr "Још само ово! Додирни „Прекретнице“."
 
@@ -9448,7 +9454,7 @@ msgstr "Последњи пут коришћено"
 msgid "Last used:"
 msgstr "Последњи пут коришћено:"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:154
+#: src/components/_economy/employee/EmployeeModal.tsx:151
 msgid "Last works"
 msgstr "Недавни рад"
 
@@ -9575,7 +9581,6 @@ msgstr "Одлучено без тебе: {picked}"
 msgid "Legend spotted!"
 msgstr "Легендо!"
 
-#: src/components/_economy/employee/employeeStats.tsx:133
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:149
 #: src/components/_user/user/EcoSkillEffects.tsx:29
 msgid "Legendary"
@@ -9677,7 +9682,7 @@ msgstr "Нека сами рашчисте"
 msgid "Let them volunteer"
 msgstr "Пусти у добровољце"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:942
+#: src/components/_economy/employee/employee.frontConfig.tsx:920
 msgid "Lets every coworker train <0>2</0> times a day"
 msgstr ""
 
@@ -9736,7 +9741,7 @@ msgstr "Поручник"
 msgid "Life"
 msgstr "Живот"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:282
+#: src/components/_other/tour/tuto.frontConfig.tsx:277
 msgid "Lifetime goals"
 msgstr "Доживотни циљеви"
 
@@ -9868,7 +9873,6 @@ msgstr "Дуги мач"
 msgid "Loose Caliper"
 msgstr "Расклиматани шублер"
 
-#: src/components/_economy/employee/employeeStats.tsx:357
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:66
 msgid "Loot"
 msgstr "Плен"
@@ -9890,7 +9894,7 @@ msgstr "Шанса за плен"
 msgid "Loot reward"
 msgstr "Награда из плена"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:564
+#: src/components/_other/tour/tuto.frontConfig.tsx:559
 msgid "Loot the map!"
 msgstr "Покупи плен са мапе!"
 
@@ -9902,7 +9906,7 @@ msgstr "Љубавни папирни авион"
 msgid "Low tax"
 msgstr "Низак порез"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:132
+#: src/components/_economy/employee/training.frontConfig.tsx:151
 msgid "Lowers their wage, for good."
 msgstr "Трајно смањује плату."
 
@@ -9918,14 +9922,10 @@ msgstr "Потпуковник"
 msgid "Lt. General"
 msgstr "Генерал-потпуковник"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:151
-#: src/components/_economy/employee/employeeStats.tsx:432
+#: src/components/_economy/employee/employee.frontConfig.tsx:127
+#: src/components/_economy/employee/employeeStats.tsx:383
 msgid "Luck"
 msgstr "Срећа"
-
-#: src/components/_economy/employee/employeeStats.tsx:396
-msgid "Luck checks"
-msgstr "Провере среће"
 
 #: src/components/_economy/employee/EmployeeFoundToolboxes.tsx:128
 msgid "Luck found {count} toolboxes. Click to claim them."
@@ -9971,7 +9971,7 @@ msgstr "Постави <0/> за новог вођу савеза. Вођа мо
 msgid "Make everyone a Supreme Commander"
 msgstr "Прогласи све врховним командантима"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:457
+#: src/components/_other/tour/tuto.frontConfig.tsx:452
 msgid "Make room for more staff!"
 msgstr "Направи места за још запослених!"
 
@@ -9980,7 +9980,7 @@ msgstr "Направи места за још запослених!"
 msgid "Manage Subscription"
 msgstr "Управљај претплатом"
 
-#: src/components/_economy/employee/employeeStats.tsx:577
+#: src/components/_economy/employee/employeeStats.tsx:477
 #: src/components/_user/user/skills.frontConfig.tsx:206
 #: src/components/_user/user/skills.frontConfig.tsx:207
 msgid "Management"
@@ -9990,7 +9990,7 @@ msgstr "Менаџмент"
 msgid "Management {value}"
 msgstr "Менаџмент {value}"
 
-#: src/components/_economy/employee/employeeStats.tsx:583
+#: src/components/_economy/employee/employeeStats.tsx:483
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:281
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:489
 #: src/pages/company/[companyId]/index.tsx:57
@@ -10039,7 +10039,7 @@ msgstr "мапе"
 
 #: src/components/_layout/LayoutMapOptions.tsx:84
 #: src/components/_layout/LayoutOptions.tsx:105
-#: src/components/_other/tour/tuto.frontConfig.tsx:652
+#: src/components/_other/tour/tuto.frontConfig.tsx:647
 msgid "Map"
 msgstr "Мапа"
 
@@ -10103,7 +10103,7 @@ msgstr "Максимални ниво достигнут!"
 msgid "Max rarity"
 msgstr "Највиша реткост"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:369
+#: src/components/_economy/employee/EmployeeModal.tsx:366
 msgid "Maxed"
 msgstr "Максимум"
 
@@ -10191,7 +10191,7 @@ msgstr "Упознај рођака"
 msgid "Meet the demands"
 msgstr "Испуни захтеве"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:133
+#: src/components/_other/tour/tuto.frontConfig.tsx:132
 msgid "Meet your employee!"
 msgstr "Упознај свог запосленог!"
 
@@ -10239,8 +10239,8 @@ msgstr "Чланство суспендовано"
 msgid "Memorandum"
 msgstr "Меморандум"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:498
-#: src/components/_economy/employee/employee.frontConfig.tsx:526
+#: src/components/_economy/employee/employee.frontConfig.tsx:476
+#: src/components/_economy/employee/employee.frontConfig.tsx:504
 msgid "Men only."
 msgstr ""
 
@@ -10252,7 +10252,7 @@ msgstr "Споменут у поруци"
 msgid "Mentor"
 msgstr "Ментор"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:60
+#: src/components/_economy/employee/training.frontConfig.tsx:79
 msgid "Mentoring"
 msgstr "Менторство"
 
@@ -10375,7 +10375,7 @@ msgstr "Прекретнице"
 msgid "Milestones are lifetime goals that never reset. Check Progression for tiers waiting to be claimed."
 msgstr "Прекретнице су доживотни циљеви који се никад не ресетују. Провери у „Напретку“ да ли те чека неки степен."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:637
+#: src/components/_other/tour/tuto.frontConfig.tsx:632
 msgid "Military"
 msgstr "Војска"
 
@@ -10517,7 +10517,7 @@ msgstr "Мисије се преузимају ручно: отвори „На�
 msgid "Missions claimed"
 msgstr "Преузете мисије"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:224
+#: src/components/_other/tour/tuto.frontConfig.tsx:219
 msgid "Missions, levels and skills. Tap here."
 msgstr "Мисије, нивои и вештине. Додирни овде."
 
@@ -10587,32 +10587,28 @@ msgstr "Ресет месечних мисија"
 msgid "Monthly:"
 msgstr "Месечно:"
 
-#: src/components/_economy/employee/employeeStats.tsx:509
+#: src/components/_economy/employee/training.frontConfig.tsx:63
+msgid "Morale"
+msgstr ""
+
+#: src/components/_economy/employee/employeeStats.tsx:409
 msgid "Morale (0-100). Above {neutral} it adds a <0>Production</0> bonus (up to +{maxBonus}% at 100), below {neutral} a malus (down to {minBonus}% at 0). Below {quitBelow} from your choices they can quit, up to {maxQuit}%/h at 0."
 msgstr "Морал (0-100). Изнад {neutral} даје бонус на <0>Производњу</0> (до +{maxBonus}% при 100), а испод {neutral} умањење (до {minBonus}% при 0). Ако због твојих одлука падне испод {quitBelow}, запослени може дати отказ, са шансом до {maxQuit}%/ч при 0."
 
-#: src/components/_economy/employee/employeeStats.tsx:800
+#: src/components/_economy/employee/employeeStats.tsx:701
 msgid "Morale is set live by traits and conditions."
 msgstr "Морал у сваком тренутку зависи од особина и услова."
-
-#: src/components/_economy/employee/employee.frontConfig.tsx:141
-msgid "Morale shield: cancels a share of every happiness loss, ramping from 0 to {RESP_MAX_SHIELD_PERCENT}% at {RESP_FULL_AT} Responsibility. Does not affect output."
-msgstr "Штит морала: поништава део сваког губитка задовољства, постепено од 0 до {RESP_MAX_SHIELD_PERCENT}% при {RESP_FULL_AT} Одговорности. Не утиче на учинак."
-
-#: src/components/_economy/employee/employeeStats.tsx:455
-msgid "Morale shield: cancels part of every <0>Happiness</0> loss, ramping to {maxShieldPct}% at {RESP_FULL_AT} Responsibility. It does not affect output."
-msgstr "Штит морала: поништава део сваког губитка <0>Задовољства</0>, до {maxShieldPct}% при {RESP_FULL_AT} Одговорности. Не утиче на учинак."
 
 #: src/components/_layout/LayoutLeftIcons.tsx:225
 #: src/components/_layout/MoreButtonNav.tsx:191
 msgid "More"
 msgstr "Више"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:267
+#: src/components/_other/tour/tuto.frontConfig.tsx:262
 msgid "More <0>Energy</0> means more work, hires and training. Put 5 points in it."
 msgstr "Више <0>енергије</0> значи више рада, запошљавања и обуке. Уложи 5 поена у њу."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:470
+#: src/components/_other/tour/tuto.frontConfig.tsx:465
 msgid "More employees, more production."
 msgstr "Више запослених, више производње."
 
@@ -10620,7 +10616,7 @@ msgstr "Више запослених, више производње."
 msgid "More premium features coming soon!"
 msgstr "Ускоро стиже још премијум функција!"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:142
+#: src/components/_economy/employee/training.frontConfig.tsx:161
 msgid "More training sessions for this employee."
 msgstr "Више обука за овог запосленог."
 
@@ -10646,7 +10642,7 @@ msgstr "Предлог поднет"
 msgid "Motions"
 msgstr "Предлози"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:388
+#: src/components/_economy/employee/EmployeeModal.tsx:385
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:255
 #: src/components/_political/region/MoveButton.tsx:119
 #: src/components/_political/region/MoveButton.tsx:131
@@ -10706,7 +10702,7 @@ msgstr "Пресели компанију"
 msgid "Move to"
 msgstr "Премести у"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:360
+#: src/components/_other/tour/tuto.frontConfig.tsx:355
 msgid "Move to the battle first (costs <0>Stamina</0>), then hit."
 msgstr "Прво се пребаци до битке (троши <0>кондицију</0>), па удари."
 
@@ -10718,7 +10714,7 @@ msgstr "Премести на врх"
 msgid "Move your manager?"
 msgstr "Преместити менаџера?"
 
-#: src/components/_economy/employee/employeeStats.tsx:741
+#: src/components/_economy/employee/employeeStats.tsx:640
 msgid "Moved recently"
 msgstr "Недавни премештај"
 
@@ -10726,7 +10722,7 @@ msgstr "Недавни премештај"
 msgid "Moved to a new company"
 msgstr "Премештен у нову компанију"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:61
+#: src/components/_economy/employee/training.frontConfig.tsx:80
 msgid "Moves a trait one step up its ladder."
 msgstr "Подиже особину за један степен."
 
@@ -10734,7 +10730,7 @@ msgstr "Подиже особину за један степен."
 msgid "Moving an employee to another company is free, but costs them {movePenalty} happiness for {movePenaltyDays} days."
 msgstr "Премештање запосленог у другу компанију је бесплатно, али му на {movePenaltyDays} дана смањује задовољство за {movePenalty}."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:576
+#: src/components/_other/tour/tuto.frontConfig.tsx:571
 msgid "Moving costs <0>Stamina</0>, then Oil."
 msgstr "Кретање троши <0>кондицију</0>, а затим нафту."
 
@@ -10917,7 +10913,7 @@ msgid "Negotiate: mixed grapes"
 msgstr "Преговарај: мешано грожђе"
 
 #: src/components/_economy/employee/employeeTags.tsx:182
-#: src/components/_economy/employee/training.frontConfig.tsx:131
+#: src/components/_economy/employee/training.frontConfig.tsx:150
 msgid "Negotiation"
 msgstr "Преговарање"
 
@@ -10980,7 +10976,7 @@ msgstr "Нови уговор прихваћен"
 msgid "New employee"
 msgstr "Нови запослени"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:93
+#: src/components/_economy/employee/training.frontConfig.tsx:112
 msgid "New habit"
 msgstr "Нова навика"
 
@@ -11008,7 +11004,7 @@ msgstr "Нова порука"
 msgid "New military unit"
 msgstr "Нова војна јединица"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:235
+#: src/components/_other/tour/tuto.frontConfig.tsx:230
 msgid "New missions all the time"
 msgstr "Стално нове мисије"
 
@@ -11114,7 +11110,7 @@ msgid "Next tier {currentTier}"
 msgstr "Следећи степен {currentTier}"
 
 #. placeholder {0}: nextToTrain.count
-#: src/components/_economy/employee/EmployeeModal.tsx:418
+#: src/components/_economy/employee/EmployeeModal.tsx:415
 msgid "Next to train ({0} left)"
 msgstr "Следећи за обуку (још {0})"
 
@@ -11259,7 +11255,7 @@ msgstr "Без грожђа"
 msgid "No ground ranking yet."
 msgstr "Још нема рангирања по поенима терена."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:600
+#: src/components/_economy/employee/employee.frontConfig.tsx:578
 msgid "No Happiness loss when storage is full"
 msgstr ""
 
@@ -11293,11 +11289,11 @@ msgstr "Још увек нема закона"
 msgid "No limit"
 msgstr "Без ограничења"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:452
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:461
 msgid "No longer <0/>"
 msgstr "Више нема особину <0/>"
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:78
+#: src/components/_economy/employee/EmployeeTooltip.tsx:77
 msgid "No longer on the roster."
 msgstr "Више није на списку запослених."
 
@@ -11385,7 +11381,7 @@ msgstr "Нема преосталих поена престижа, притис�
 msgid "No prize, but the whole company sang together. Spirits are high."
 msgstr "Од награде ништа, али цела фирма је певала заједно. Атмосфера је на врхунцу."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:145
+#: src/components/_economy/employee/EmployeeModal.tsx:142
 msgid "No production yet"
 msgstr "Још нема производње"
 
@@ -11421,7 +11417,7 @@ msgstr "Нема заклетог непријатеља"
 msgid "No tier yet"
 msgstr "Још без степена"
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:185
+#: src/components/_economy/employee/EmployeeTooltip.tsx:181
 msgid "No tool"
 msgstr "Без алата"
 
@@ -11434,7 +11430,7 @@ msgstr "Нема алата"
 msgid "No trading orders"
 msgstr "Нема налога за трговину"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:743
+#: src/components/_economy/employee/EmployeeModal.tsx:740
 msgid "No traits"
 msgstr ""
 
@@ -11590,7 +11586,7 @@ msgstr "Није постављено"
 msgid "Not started"
 msgstr "Није започето"
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:213
+#: src/components/_economy/employee/EmployeeTooltip.tsx:209
 msgid "not usable in this company"
 msgstr "неупотребљив у овој компанији"
 
@@ -11615,8 +11611,8 @@ msgstr "Ништа не пада у близини, али никоме није
 msgid "Nothing in play. Hit in an ongoing battle to start earning, and take a top damage rank to claim a spot in its loot pool."
 msgstr "Тренутно ништа није у игри. Удари у текућој бици да почнеш да зарађујеш и заузми једно од водећих места по нанетој штети да уђеш у расподелу њеног фонда плена."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:403
-#: src/components/_economy/employee/employee.frontConfig.tsx:421
+#: src/components/_economy/employee/employee.frontConfig.tsx:381
+#: src/components/_economy/employee/employee.frontConfig.tsx:399
 msgid "Nothing while alone."
 msgstr ""
 
@@ -11689,11 +11685,11 @@ msgstr "Нафта"
 msgid "Oil the hinge"
 msgstr "Подмажи шарку"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:216
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:215
 msgid "OK"
 msgstr "У реду"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:466
+#: src/components/_economy/employee/EmployeeModal.tsx:463
 msgid "OK, remove them"
 msgstr "У реду, уклони са списка"
 
@@ -11722,8 +11718,8 @@ msgid "On contract failure: -1 rep per <0/> in budget, and -1 rep per <1/> short
 msgstr "По неуспеху уговора: -1 углед по <0/> у буџету и -1 углед по <1/> који недостаје до завршетка уговора."
 
 #: src/components/_economy/company/CompanyTags.tsx:79
-msgid "On every employee, before Responsibility"
-msgstr "На сваког запосленог, пре урачунавања Одговорности"
+msgid "On every employee"
+msgstr ""
 
 #: src/components/_economy/employeeEvent/employeeEvent.frontConfig.tsx:341
 msgid "On fire"
@@ -11733,7 +11729,7 @@ msgstr "У налету"
 msgid "On strike"
 msgstr "Штрајк"
 
-#: src/components/_economy/employee/employeeStats.tsx:895
+#: src/components/_economy/employee/employeeStats.tsx:796
 msgid "Once a day their manager picks one employee: +{happinessBoost} <0>Happiness</0> for {durationHours}h. Boosts stack."
 msgstr "Менаџер једном дневно бира једног запосленог: +{happinessBoost} <0>Задовољства</0> на {durationHours}ч. Бонуси се сабирају."
 
@@ -11808,7 +11804,7 @@ msgstr "Само уз особину {stockpiler}."
 msgid "Only citizens of <0/> can vote."
 msgstr "Гласати могу само држављани земље <0/>."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:470
+#: src/components/_economy/employee/employee.frontConfig.tsx:448
 #: src/components/_economy/employee/EmployeeTraitArg.tsx:121
 msgid "Only ever from an office romance."
 msgstr ""
@@ -11898,7 +11894,7 @@ msgstr "Отвори врећу"
 msgid "Open the chat"
 msgstr "Отвори ћаскање"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:370
+#: src/components/_other/tour/tuto.frontConfig.tsx:365
 msgid "Open this menu to eat."
 msgstr "Отвори овај мени да нешто поједеш."
 
@@ -11906,11 +11902,11 @@ msgstr "Отвори овај мени да нешто поједеш."
 msgid "Open to all"
 msgstr "Отворено за све"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:214
+#: src/components/_other/tour/tuto.frontConfig.tsx:209
 msgid "Open your case!"
 msgstr "Отвори своје сандуче!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:458
+#: src/components/_other/tour/tuto.frontConfig.tsx:453
 msgid "Open your company's menu."
 msgstr "Отвори мени компаније."
 
@@ -11979,7 +11975,7 @@ msgstr "Порекло"
 msgid "Other"
 msgstr "Остало"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:369
+#: src/components/_other/tour/tuto.frontConfig.tsx:364
 msgid "Out of Health?"
 msgstr "Нестало ти је здравља?"
 
@@ -12064,19 +12060,19 @@ msgstr "Пакети"
 msgid "Pact upkeep {0}"
 msgstr "Одржавање пакта {0}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:499
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:508
 msgid "Paid back in full"
 msgstr "Враћено у целости"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:513
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:522
 msgid "Paid back in full: {value}"
 msgstr "Враћено у целости: {value}"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:497
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:506
 msgid "Paid back with {interest}% interest"
 msgstr "Враћено уз {interest}% камате"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:511
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:520
 msgid "Paid back with interest: {value}"
 msgstr "Враћено с каматом: {value}"
 
@@ -12351,34 +12347,34 @@ msgstr "Захтевана је верификација телефона"
 msgid "Phone verification required"
 msgstr "Потребна је верификација телефона"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:481
+#: src/components/_economy/employee/TrainingDraftModal.tsx:486
 msgid "Pick {cardTitle}"
 msgstr "Изабери: {cardTitle}"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:120
-#: src/components/_other/tour/tuto.frontConfig.tsx:477
-#: src/components/_other/tour/tuto.frontConfig.tsx:506
+#: src/components/_other/tour/tuto.frontConfig.tsx:119
+#: src/components/_other/tour/tuto.frontConfig.tsx:472
+#: src/components/_other/tour/tuto.frontConfig.tsx:501
 msgid "Pick a candidate!"
 msgstr "Изабери кандидата!"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:365
-#: src/components/_economy/employee/TrainingDraftModal.tsx:483
+#: src/components/_economy/employee/EmployeeModal.tsx:362
+#: src/components/_economy/employee/TrainingDraftModal.tsx:488
 msgid "Pick a card"
 msgstr "Изабери карту"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:170
+#: src/components/_other/tour/tuto.frontConfig.tsx:165
 msgid "Pick a card!"
 msgstr "Изабери карту!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:309
+#: src/components/_other/tour/tuto.frontConfig.tsx:304
 msgid "Pick a fight!"
 msgstr "Започни борбу!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:347
+#: src/components/_other/tour/tuto.frontConfig.tsx:342
 msgid "Pick a side and hit until your <0>Health</0> runs out."
 msgstr "Изабери страну и ударај док ти не нестане <0>здравља</0>."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:441
+#: src/components/_other/tour/tuto.frontConfig.tsx:436
 msgid "Pick an article!"
 msgstr "Изабери чланак!"
 
@@ -12386,12 +12382,12 @@ msgstr "Изабери чланак!"
 msgid "Pick an option"
 msgstr "Изабери опцију"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:404
+#: src/components/_economy/employee/TrainingDraftModal.tsx:409
 msgid "Pick one card, the other is lost."
 msgstr "Изабери једну карту, друга пропада."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:478
-#: src/components/_other/tour/tuto.frontConfig.tsx:507
+#: src/components/_other/tour/tuto.frontConfig.tsx:473
+#: src/components/_other/tour/tuto.frontConfig.tsx:502
 msgid "Pick the one you like best."
 msgstr "Изабери кандидата који ти се највише свиђа."
 
@@ -12479,7 +12475,7 @@ msgstr "Изабери регион"
 msgid "Plutocracy"
 msgstr "Плутократија"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:105
+#: src/components/_economy/employee/employee.frontConfig.tsx:93
 msgid "Poached"
 msgstr "Прелазак код конкуренције"
 
@@ -12552,7 +12548,7 @@ msgstr "Објави позицију менаџера"
 msgid "Post announcement"
 msgstr "Објави обавештење"
 
-#: src/components/_economy/employee/employeeCards.tsx:235
+#: src/components/_economy/employee/employeeCards.tsx:246
 msgid "Potential"
 msgstr "Потенцијал"
 
@@ -12756,10 +12752,10 @@ msgstr "Произведени предмет"
 msgid "Produced item changed!"
 msgstr "Произведени предмет промењен!"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:128
-#: src/components/_economy/employee/employeeStats.tsx:281
-#: src/components/_economy/employee/employeeStats.tsx:298
-#: src/components/_economy/employee/employeeStats.tsx:849
+#: src/components/_economy/employee/employee.frontConfig.tsx:116
+#: src/components/_economy/employee/employeeStats.tsx:258
+#: src/components/_economy/employee/employeeStats.tsx:275
+#: src/components/_economy/employee/employeeStats.tsx:750
 #: src/components/_economy/employee/WorkforceSummary.tsx:303
 #: src/components/_economy/work/WorkChart.tsx:232
 #: src/components/_user/user/skills.frontConfig.tsx:127
@@ -12769,8 +12765,8 @@ msgid "Production"
 msgstr "Производња"
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:42
-#: src/components/_economy/employee/employeeStats.tsx:690
-#: src/components/_economy/employee/EmployeeTooltip.tsx:135
+#: src/components/_economy/employee/employeeStats.tsx:590
+#: src/components/_economy/employee/EmployeeTooltip.tsx:131
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:170
 #: src/components/_economy/manager/CompanyManagerSlot.tsx:517
 #: src/pages/region/[regionId]/index.tsx:72
@@ -12785,7 +12781,7 @@ msgstr "Производња у <0/> је пуна, требало би да з�
 msgid "Production is full"
 msgstr "Производња је пуна"
 
-#: src/components/_economy/employee/employeeStats.tsx:301
+#: src/components/_economy/employee/employeeStats.tsx:278
 msgid "Production points made per day at the current rate, bonuses included."
 msgstr "Поени производње по дану по тренутном темпу, са бонусима."
 
@@ -12812,7 +12808,7 @@ msgstr "Профит"
 
 #: src/components/_layout/LayoutRightIcons.tsx:182
 #: src/components/_layout/MoreButtonNav.tsx:100
-#: src/components/_other/tour/tuto.frontConfig.tsx:647
+#: src/components/_other/tour/tuto.frontConfig.tsx:642
 #: src/components/_user/mission/ProgressHeader.tsx:61
 msgid "Progression"
 msgstr "Напредак"
@@ -12946,7 +12942,7 @@ msgstr "Врати је тачно на место"
 msgid "Put it in writing"
 msgstr "Стави то на папир"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:182
+#: src/components/_other/tour/tuto.frontConfig.tsx:177
 msgid "Put yourself to work!"
 msgstr "Баци се на посао!"
 
@@ -12987,11 +12983,11 @@ msgstr "Брзо растави предмете"
 msgid "Quintessence Still"
 msgstr "Казан квинтесенције"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:93
+#: src/components/_economy/employee/employee.frontConfig.tsx:81
 msgid "Quit"
 msgstr "Отказ"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:835
+#: src/components/_economy/employee/employee.frontConfig.tsx:813
 msgid "Quits below <0>{flightRiskQuitThreshold}</0> happiness instead of {quitThreshold}"
 msgstr ""
 
@@ -13003,11 +12999,15 @@ msgstr "Дуга"
 msgid "Raise the pay to match"
 msgstr "Усклади плату са звањем"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:45
+#: src/components/_economy/employee/training.frontConfig.tsx:53
 msgid "Raises one stat."
 msgstr "Повећава један атрибут."
 
-#: src/components/_economy/employee/TrainingCard.tsx:288
+#: src/components/_economy/employee/training.frontConfig.tsx:64
+msgid "Raises their base happiness."
+msgstr ""
+
+#: src/components/_economy/employee/TrainingCard.tsx:314
 msgid "Random trait, +1 random stat"
 msgstr "Насумична особина, +1 на насумичан атрибут"
 
@@ -13035,7 +13035,6 @@ msgstr "Рангирања"
 msgid "Ranks"
 msgstr "Рангирања"
 
-#: src/components/_economy/employee/employeeStats.tsx:131
 #: src/components/_user/user/EcoSkillEffects.tsx:27
 msgid "Rare"
 msgstr "Ретка"
@@ -13060,6 +13059,10 @@ msgstr "Ретко. Бар 14 дана стажа, задовољство {mood}
 msgid "Rare. Someone hired 7 days ago or more who is {craftsman}, {specialist} or {handy}, or has 15 days of experience in the company's good, if a tool exists for that good."
 msgstr "Ретко. Неко са бар 7 дана стажа ко има особину {craftsman}, {specialist} или {handy}, или 15 дана искуства с производом компаније, ако за тај производ постоји алат."
 
+#: src/components/_economy/employee/employeeStats.tsx:352
+msgid "Rare+ training card"
+msgstr ""
+
 #: src/components/_user/user/EcoSkillEffects.tsx:98
 msgid "Rarer cards when you train your employees. Each level moves card odds off Common: <0/>."
 msgstr "Ређе карте при обуци запослених. Сваки ниво помера шансе са обичних на ређе карте: <0/>."
@@ -13076,7 +13079,7 @@ msgstr "Цена по 1К штете"
 msgid "Rationing"
 msgstr "Следовање"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:292
+#: src/components/_other/tour/tuto.frontConfig.tsx:287
 msgid "Reach a tier, claim its XP."
 msgstr "Достигни степен, преузми XP."
 
@@ -13186,11 +13189,11 @@ msgstr "Прочитај чланак"
 msgid "Read the article"
 msgstr "Прочитај чланак"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:435
+#: src/components/_other/tour/tuto.frontConfig.tsx:430
 msgid "Read the news!"
 msgstr "Прочитај вести!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:303
+#: src/components/_other/tour/tuto.frontConfig.tsx:298
 msgid "Ready for battle!"
 msgstr "Спреман за битку!"
 
@@ -13311,7 +13314,7 @@ msgid "Regens <0>{0}</0> when consumed"
 msgstr "Регенерише <0>{0}</0> при конзумирању"
 
 #: src/components/_economy/company/CompanyHeader.tsx:37
-#: src/components/_economy/employee/employeeStats.tsx:575
+#: src/components/_economy/employee/employeeStats.tsx:475
 #: src/components/_military/mu/MuHeader.tsx:110
 #: src/components/_military/mu/MuTooltip.tsx:109
 #: src/components/_political/map/MapMenu.tsx:443
@@ -13342,7 +13345,7 @@ msgstr "Регион државе"
 msgid "Region transfer"
 msgstr "Пренос региона"
 
-#: src/components/_economy/employee/employeeStats.tsx:743
+#: src/components/_economy/employee/employeeStats.tsx:642
 msgid "Region under attack"
 msgstr "Регион под нападом"
 
@@ -13388,7 +13391,7 @@ msgstr "Пријаве се затварају за"
 msgid "Registration open"
 msgstr "Пријаве су отворене"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:66
+#: src/components/_economy/employee/training.frontConfig.tsx:85
 msgid "Rehab"
 msgstr "Рехабилитација"
 
@@ -13435,7 +13438,7 @@ msgstr "Преостало трајање ојачања"
 msgid "Remaining debuff duration"
 msgstr "Преостало трајање ослабљења"
 
-#: src/components/_economy/employee/TrainingCard.tsx:220
+#: src/components/_economy/employee/TrainingCard.tsx:246
 msgid "Remove <0/>"
 msgstr "Уклони <0/>"
 
@@ -13494,7 +13497,7 @@ msgstr "Уклони опис"
 msgid "Remove enemy"
 msgstr "Уклони непријатеља"
 
-#: src/components/_economy/employee/TrainingCard.tsx:280
+#: src/components/_economy/employee/TrainingCard.tsx:306
 msgid "Remove every bad trait"
 msgstr "Уклони све лоше особине"
 
@@ -13524,7 +13527,7 @@ msgid "Removed from saved"
 msgstr "Уклоњено из сачуваних"
 
 #: src/components/_economy/company/CompanyDropdown.tsx:461
-#: src/components/_economy/employee/EmployeeModal.tsx:381
+#: src/components/_economy/employee/EmployeeModal.tsx:378
 #: src/components/_economy/employee/EmployeeRenameModal.tsx:83
 #: src/components/_user/user/SkillPresetsModal.tsx:228
 msgid "Rename"
@@ -13574,7 +13577,7 @@ msgstr "Понови"
 msgid "Report"
 msgstr "Пријави"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:502
+#: src/components/_economy/employee/EmployeeModal.tsx:499
 msgid "Report name"
 msgstr "Пријави име"
 
@@ -13638,11 +13641,11 @@ msgstr "Ресетуј"
 msgid "Reset CAPTCHA"
 msgstr "Ресетуј CAPTCHA"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:509
+#: src/components/_economy/employee/EmployeeModal.tsx:506
 msgid "Reset name"
 msgstr "Врати првобитно име"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:515
+#: src/components/_economy/employee/EmployeeModal.tsx:512
 msgid "Reset Name"
 msgstr "Врати првобитно име"
 
@@ -13733,15 +13736,6 @@ msgstr "Ресурси прераспоређени"
 msgid "Response to message"
 msgstr "Одговор на поруку"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:139
-#: src/components/_economy/employee/employeeStats.tsx:492
-msgid "Responsibility"
-msgstr "Одговорност"
-
-#: src/components/_economy/employee/employeeStats.tsx:830
-msgid "Responsibility shielded"
-msgstr "Ублажено Одговорношћу"
-
 #: src/components/_social/poll/PollEditorModal.tsx:260
 msgid "Restrict to nationality"
 msgstr "Ограничи по држављанству"
@@ -13770,11 +13764,11 @@ msgstr "Настави га кад год хоћеш са картице „Во
 msgid "Resume it anytime from your inventory to earn its reward."
 msgstr "Настави га кад год хоћеш из инвентара и освоји награду."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:109
+#: src/components/_economy/employee/employee.frontConfig.tsx:97
 msgid "Retired"
 msgstr "У пензији"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:110
+#: src/components/_economy/employee/employee.frontConfig.tsx:98
 msgid "Retired at the end of a long career."
 msgstr "Пензија после дуге каријере."
 
@@ -13823,7 +13817,7 @@ msgstr "Пушка"
 msgid "Right after you pick {answer} in {source}."
 msgstr "Одмах након што у догађају „{source}“ изабереш „{answer}“."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:548
+#: src/components/_other/tour/tuto.frontConfig.tsx:543
 msgid "Right-click any region on the map to open its menu."
 msgstr "Кликни десним тастером на било који регион на мапи да отвориш његов мени."
 
@@ -13927,7 +13921,7 @@ msgstr "Владајућа странка"
 msgid "Run in elections"
 msgstr "Кандидовање на изборима"
 
-#: src/components/_economy/employee/employeeStats.tsx:912
+#: src/components/_economy/employee/employeeStats.tsx:813
 msgid "Running"
 msgstr "Траје"
 
@@ -13967,7 +13961,7 @@ msgstr "Сачувај тренутни"
 msgid "Save poll"
 msgstr "Сачувај анкету"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:276
+#: src/components/_other/tour/tuto.frontConfig.tsx:271
 msgid "Save!"
 msgstr "Сачувај!"
 
@@ -13976,11 +13970,11 @@ msgstr "Сачувај!"
 msgid "Saved"
 msgstr "Сачувано"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:417
+#: src/components/_other/tour/tuto.frontConfig.tsx:412
 msgid "Say hello!"
 msgstr "Реци здраво!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:430
+#: src/components/_other/tour/tuto.frontConfig.tsx:425
 msgid "Say hi to your fellow citizens."
 msgstr "Поздрави суграђане."
 
@@ -13994,7 +13988,7 @@ msgstr "Понови, полако"
 msgid "Say nothing"
 msgstr "Ћути"
 
-#: src/components/_economy/employee/employeeStats.tsx:236
+#: src/components/_economy/employee/employeeStats.tsx:213
 msgid "Scales output, not the stat"
 msgstr "Утиче на учинак, не на атрибут"
 
@@ -14054,7 +14048,7 @@ msgstr "Претражи корисника за номинацију..."
 msgid "Seasoned Skillet"
 msgstr "Прекаљени тигањ"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:141
+#: src/components/_economy/employee/training.frontConfig.tsx:160
 msgid "Second wind"
 msgstr "Други дах"
 
@@ -14257,7 +14251,7 @@ msgstr "Постави облик владавине"
 msgid "Set government type to <0/>"
 msgstr "Постави облик владавине: <0/>"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:491
+#: src/components/_other/tour/tuto.frontConfig.tsx:486
 msgid "Set it up!"
 msgstr "Покрени је!"
 
@@ -14542,7 +14536,7 @@ msgstr "Снајпер"
 msgid "Sociable"
 msgstr "Друштвеност"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:642
+#: src/components/_other/tour/tuto.frontConfig.tsx:637
 msgid "Social"
 msgstr "Друштво"
 
@@ -14567,11 +14561,11 @@ msgid "Someone moved {name}'s chair eleven centimeters to the left. Work has sto
 msgstr "{name} затиче своју столицу померену једанаест центиметара улево. Посао стоји."
 
 #. placeholder {0}: duration(effect.inHours)
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:536
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:545
 msgid "Something follows in {0}"
 msgstr "За {0} следи наставак"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:538
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:547
 msgid "Something follows soon"
 msgstr "Ускоро следи наставак"
 
@@ -14625,7 +14619,7 @@ msgstr "Троши <0>енергију</0> на <1>изградњу</1> и по�
 msgid "Spend <0>Energy</0> or <1>Health</1> to raise the resistance of an occupied region."
 msgstr "Троши <0>енергију</0> или <1>здравље</1> да подигнеш отпор у окупираном региону."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:259
+#: src/components/_other/tour/tuto.frontConfig.tsx:254
 msgid "Spend your skill points!"
 msgstr "Потроши поене вештина!"
 
@@ -14653,7 +14647,7 @@ msgstr "Спринтер"
 msgid "Stable, conquest-proof strength. Still used for unrest, government wages and revolution cost. Other costs use <0>Average development</0>."
 msgstr "Стабилна снага отпорна на освајања. И даље се користи за немир, владине плате и цену револуције. Остали трошкови се рачунају према <0>просечном развоју</0>."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:499
+#: src/components/_other/tour/tuto.frontConfig.tsx:494
 msgid "Staff your new company!"
 msgstr "Запосли људе у новој компанији!"
 
@@ -14764,8 +14758,8 @@ msgstr "Статистички немогуће немати оволико ср
 msgid "Statistically rigged"
 msgstr "Статистички намештено"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:761
-#: src/components/_economy/employee/EmployeeTooltip.tsx:123
+#: src/components/_economy/employee/EmployeeModal.tsx:758
+#: src/components/_economy/employee/EmployeeTooltip.tsx:122
 #: src/pages/company/[companyId]/index.tsx:69
 #: src/pages/war/[warId]/index.tsx:65
 msgid "Stats"
@@ -14802,7 +14796,7 @@ msgstr "Бифтек"
 msgid "Steel"
 msgstr "Челик"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:895
+#: src/components/_economy/employee/employee.frontConfig.tsx:873
 msgid "Still finds toolboxes when storage is full"
 msgstr ""
 
@@ -14819,7 +14813,7 @@ msgstr "Камени маљ"
 msgid "Storage"
 msgstr "Складиште"
 
-#: src/components/_economy/employee/employeeStats.tsx:738
+#: src/components/_economy/employee/employeeStats.tsx:637
 msgid "Storage full"
 msgstr "Пуно складиште"
 
@@ -14906,7 +14900,7 @@ msgstr "Подржи нас"
 msgid "Supporter"
 msgstr "Подржавалац"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:383
+#: src/components/_economy/employee/EmployeeModal.tsx:380
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:52
 #: src/components/_user/user/UserDropdown.tsx:241
 #: src/components/_user/user/UserDropdown.tsx:250
@@ -15047,19 +15041,19 @@ msgstr "Убеди да одустане"
 msgid "Tank"
 msgstr "Тенк"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:310
+#: src/components/_other/tour/tuto.frontConfig.tsx:305
 msgid "Tap a battle to join it."
 msgstr "Додирни битку да уђеш у њу."
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:453
+#: src/components/_economy/employee/TrainingDraftModal.tsx:458
 msgid "Tap a card to look at it."
 msgstr "Додирни карту да је погледаш."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:546
+#: src/components/_other/tour/tuto.frontConfig.tsx:541
 msgid "Tap any region on the map to open its menu."
 msgstr "Додирни било који регион на мапи да отвориш његов мени."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:96
+#: src/components/_other/tour/tuto.frontConfig.tsx:95
 msgid "Tap Companies to start."
 msgstr "Додирни „Компаније“ да почнеш."
 
@@ -15068,43 +15062,43 @@ msgstr "Додирни „Компаније“ да почнеш."
 msgid "Tap for the full tier breakdown"
 msgstr "Додирни за детаљан приказ степена"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:203
+#: src/components/_other/tour/tuto.frontConfig.tsx:198
 msgid "Tap Inventory."
 msgstr "Додирни „Инвентар“."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:558
+#: src/components/_other/tour/tuto.frontConfig.tsx:553
 msgid "Tap Move to travel there."
 msgstr "Додирни „Премести“ да отпутујеш тамо."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:442
+#: src/components/_other/tour/tuto.frontConfig.tsx:437
 msgid "Tap one to read it."
 msgstr "Додирни један да га прочиташ."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:277
+#: src/components/_other/tour/tuto.frontConfig.tsx:272
 msgid "Tap Save to keep your points."
 msgstr "Додирни „Сачувај“ да задржиш поене."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:418
+#: src/components/_other/tour/tuto.frontConfig.tsx:413
 msgid "Tap the chat."
 msgstr "Додирни ћаскање."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:134
+#: src/components/_other/tour/tuto.frontConfig.tsx:133
 msgid "Tap them to see who they are."
 msgstr "Додирни да сазнаш ко је."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:449
+#: src/components/_other/tour/tuto.frontConfig.tsx:444
 msgid "Tap this slot to wear your new gear."
 msgstr "Додирни ово место да ставиш нову опрему."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:574
+#: src/components/_other/tour/tuto.frontConfig.tsx:569
 msgid "Tap to go to the nearest one and loot it."
 msgstr "Додирни да одеш до најближег и покупиш га."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:215
+#: src/components/_other/tour/tuto.frontConfig.tsx:210
 msgid "Tap to see what's inside."
 msgstr "Додирни да видиш шта је унутра."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:424
+#: src/components/_other/tour/tuto.frontConfig.tsx:419
 msgid "Tap your country's conversation."
 msgstr "Додирни разговор своје земље."
 
@@ -15145,19 +15139,19 @@ msgstr "Порези"
 msgid "Teach them yourself"
 msgstr "Преузми наставу"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:95
+#: src/components/_economy/employee/training.frontConfig.tsx:114
 msgid "Teaches a trait, named on the card. It needs a free trait slot."
 msgstr "Даје особину наведену на карти. Потребно је слободно место за особину."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:105
+#: src/components/_economy/employee/training.frontConfig.tsx:124
 msgid "Teaches one good trait, no downside."
 msgstr "Даје једну добру особину, без мана."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:101
+#: src/components/_economy/employee/training.frontConfig.tsx:120
 msgid "Teaches one mixed trait: real upside, with a string attached."
 msgstr "Даје једну мешовиту особину: права предност, али с кваком."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:107
+#: src/components/_economy/employee/training.frontConfig.tsx:126
 msgid "Teaches two good traits at once. Needs two free slots."
 msgstr "Даје две добре особине одједном. Потребна су два слободна места."
 
@@ -15205,7 +15199,7 @@ msgstr "Текстура"
 msgid "That dopamine hit is free"
 msgstr "Овај налет допамина је бесплатан"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:517
+#: src/components/_other/tour/tuto.frontConfig.tsx:512
 msgid "That is what they make, minus their wages."
 msgstr "То је оно што произведу, умањено за њихове плате."
 
@@ -15221,7 +15215,7 @@ msgstr "<0>Поени производње</0> које генеришеш св�
 msgid "The Automated Engine keeps a company producing every hour, even while you're offline. Upgrade it to produce more."
 msgstr "Аутоматизовани механизам одржава производњу компаније сваког сата, чак и кад ниси на мрежи. Надогради га за већу производњу."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:193
+#: src/components/_other/tour/tuto.frontConfig.tsx:188
 msgid "The bar is full. Tap to turn it into items."
 msgstr "Трака је пуна. Додирни да је претвориш у предмете."
 
@@ -15340,7 +15334,7 @@ msgstr "Рођак излази, помало се дими и сав је ша�
 msgid "the coworker"
 msgstr "колега"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:325
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:334
 msgid "The coworker"
 msgstr "Колега"
 
@@ -15352,7 +15346,7 @@ msgstr "Колеге цео дан врбују једни друге умест
 msgid "The damage factor increase of critical hits over normal hits"
 msgstr "Фактор повећања штете критичних удараца у односу на нормалне ударце"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:334
+#: src/components/_other/tour/tuto.frontConfig.tsx:329
 msgid "The damage race"
 msgstr "Трка у штети"
 
@@ -15404,7 +15398,7 @@ msgstr "Ефекат конзумираних ојачања је завршен
 msgid "the employee"
 msgstr "запослени"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:320
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:329
 msgid "The employee"
 msgstr "Запослени"
 
@@ -15583,7 +15577,7 @@ msgstr "Нови постер је величанствен: мачић у ок�
 msgid "The new them is an improvement, and an old habit is gone."
 msgstr "Ново издање је боље од старог, а и једне старе навике више нема."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:293
+#: src/components/_other/tour/tuto.frontConfig.tsx:288
 msgid "The next tier opens right away."
 msgstr "Следећи степен се одмах откључава."
 
@@ -15631,7 +15625,7 @@ msgstr "Ред се разилази уз мрмљање о баксузлуку
 msgid "The rarity is rolled once for the whole hand, among the rarities the employee has enough cards in. Leadership tilts these odds."
 msgstr "Реткост се одређује једном за све карте у руци, и то међу реткостима од којих запослени има довољно карата. Лидерство утиче на ове шансе."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:554
+#: src/components/_other/tour/tuto.frontConfig.tsx:549
 msgid "The region menu"
 msgstr "Мени региона"
 
@@ -15812,7 +15806,7 @@ msgstr "Радионица сада има мачку, и сви су боље �
 msgid "The workshop is a jungle now. Everyone loves it, and nobody can find the stapler."
 msgstr "Радионица је сада џунгла. Сви су одушевљени, а хефталицу нико не може да нађе."
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:336
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:345
 msgid "Their coworkers"
 msgstr "Колеге"
 
@@ -15820,11 +15814,11 @@ msgstr "Колеге"
 msgid "Their Luck"
 msgstr "Срећа запосленог"
 
-#: src/components/_economy/employee/employeeStats.tsx:254
+#: src/components/_economy/employee/employeeStats.tsx:231
 msgid "Their output: every {OUTPUT_DIVISOR} Production banks one point per hour, before bonuses."
 msgstr "Учинак: сваких {OUTPUT_DIVISOR} Производње доноси један поен на сат, пре бонуса."
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:130
+#: src/components/_economy/employee/employee.frontConfig.tsx:118
 msgid "Their output: every {OUTPUT_DIVISOR} Production banks one production point per hour, before bonuses."
 msgstr "Учинак: сваких {OUTPUT_DIVISOR} Производње доноси један поен производње на сат, пре бонуса."
 
@@ -15836,7 +15830,7 @@ msgstr "Стола нема. Сада свако у свакоме види Џе
 msgid "They dig deep and deliver. For now."
 msgstr "Скупља последње атоме снаге и завршава посао. Засад."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:125
+#: src/components/_other/tour/tuto.frontConfig.tsx:124
 msgid "They earn a wage from your <0>Money</0>."
 msgstr "Плату добија из твог <0>новца</0>."
 
@@ -15852,11 +15846,11 @@ msgstr "Све што је зарађено остаје менаџеру."
 msgid "They laugh too. {name} and {partnerName} are old friends now, and share a barber."
 msgstr "Смеју се и они. {name} и {partnerName} су сада стари пријатељи и иду код истог берберина."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:652
+#: src/components/_economy/employee/EmployeeModal.tsx:649
 msgid "They left the company"
 msgstr "Више није у компанији"
 
-#: src/components/_economy/employee/EmployeeResumeRow.tsx:120
+#: src/components/_economy/employee/EmployeeResumeRow.tsx:119
 msgid "They left the company."
 msgstr "Више није у компанији."
 
@@ -15872,7 +15866,7 @@ msgstr "Промашује, а с новчићем пада и располож�
 msgid "They make up by the end of the week, as if nothing happened."
 msgstr "До краја недеље се мире, као да ништа није ни било."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:291
+#: src/components/_other/tour/tuto.frontConfig.tsx:286
 msgid "They never reset."
 msgstr "Никад се не ресетују."
 
@@ -15880,7 +15874,7 @@ msgstr "Никад се не ресетују."
 msgid "They put it to work on their own tool straight away."
 msgstr "Одмах њоме сређује свој алат."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:407
+#: src/components/_other/tour/tuto.frontConfig.tsx:402
 msgid "They regenerate {regenPercent}% every hour. Next in <0/>."
 msgstr "Обнављају се за {regenPercent}% сваког сата. Следеће обнављање за <0/>."
 
@@ -15904,7 +15898,7 @@ msgstr "Држаће те за реч. За недељу дана пакује �
 msgid "They win the flip, and the debt with it."
 msgstr "Погађа страну, и дуг је отписан."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:115
+#: src/components/_other/tour/tuto.frontConfig.tsx:114
 msgid "They work for you every hour, even offline."
 msgstr "Ради за тебе сваког сата, чак и кад ниси на мрежи."
 
@@ -15977,7 +15971,7 @@ msgstr "Ова опрема је зелена, као и трава"
 msgid "This feels good, huh?"
 msgstr "Добар осећај, зар не?"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:217
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:226
 msgid "this good"
 msgstr "овај производ"
 
@@ -15993,7 +15987,7 @@ msgstr "Преглед плена из ове битке. Обухвата св�
 msgid "This is the value used to calculate most costs: battle orders, alliance, sworn enemy and defensive pact maintenance, laws and upgrade upkeep."
 msgstr "Ово је вредност која се користи за израчунавање већине трошкова: наређења, одржавање савеза, заклетог непријатеља и одбрамбеног пакта, закона и надоградњи."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:103
+#: src/components/_other/tour/tuto.frontConfig.tsx:102
 msgid "This is your company"
 msgstr "Ово је твоја компанија"
 
@@ -16088,7 +16082,7 @@ msgstr "Степен {0}"
 msgid "Time in the company"
 msgstr "Стаж у компанији"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:192
+#: src/components/_other/tour/tuto.frontConfig.tsx:187
 msgid "Time to produce!"
 msgstr "Време је за производњу!"
 
@@ -16173,7 +16167,7 @@ msgstr "Дај напојницу за чланак"
 msgid "to"
 msgstr "за"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:743
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:752
 msgid "To be continued"
 msgstr "Наставиће се"
 
@@ -16201,19 +16195,19 @@ msgstr "Књига олуја"
 msgid "Tome of Tides"
 msgstr "Књига плиме и осеке"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:106
+#: src/components/_economy/employee/employee.frontConfig.tsx:94
 msgid "Took a job offer from a rival firm."
 msgstr "Прихваћена понуда конкурентске фирме."
 
 #: src/components/_economy/employee/employee.traitMeta.ts:81
 #: src/components/_economy/employee/EmployeeToolSlot.tsx:255
-#: src/components/_economy/employee/EmployeeTooltip.tsx:183
-#: src/components/_economy/employee/EmployeeTooltip.tsx:194
+#: src/components/_economy/employee/EmployeeTooltip.tsx:179
+#: src/components/_economy/employee/EmployeeTooltip.tsx:190
 msgid "Tool"
 msgstr "Алат"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:465
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:681
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:474
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:690
 msgid "Tool <0>fully repaired</0>"
 msgstr "Алат је <0>потпуно поправљен</0>"
 
@@ -16226,8 +16220,8 @@ msgstr "Алат додељен"
 msgid "Tool taken back"
 msgstr "Алат враћен"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:470
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:686
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:479
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:695
 msgid "Tool: {value} durability"
 msgstr "Алат: {value} издржљивости"
 
@@ -16243,9 +16237,9 @@ msgstr "Пронађене кутије с алатом"
 msgid "Toolbox found"
 msgstr "Пронађена кутија с алатом"
 
-#: src/components/_economy/employee/employeeStats.tsx:360
-msgid "Toolbox per worked hour"
-msgstr "Кутија с алатом по радном сату"
+#: src/components/_economy/employee/employeeStats.tsx:345
+msgid "Toolbox per hour"
+msgstr ""
 
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:43
 #: src/components/_economy/inventory/Inventory.tsx:852
@@ -16311,9 +16305,9 @@ msgstr "Врх брда"
 msgid "total"
 msgstr "укупно"
 
-#: src/components/_economy/employee/employeeStats.tsx:222
-#: src/components/_economy/employee/employeeStats.tsx:653
-#: src/components/_economy/employee/employeeStats.tsx:840
+#: src/components/_economy/employee/employeeStats.tsx:199
+#: src/components/_economy/employee/employeeStats.tsx:553
+#: src/components/_economy/employee/employeeStats.tsx:741
 #: src/components/_economy/employee/employeeTags.tsx:202
 #: src/components/_economy/inventoryAccount/InventoryAccount.tsx:120
 #: src/components/_economy/itemTrading/TradingOrders.tsx:55
@@ -16441,8 +16435,8 @@ msgstr "Трговина"
 msgid "Trading transaction"
 msgstr "Трговинска трансакција"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:367
-#: src/components/_economy/employee/TrainingDraftModal.tsx:357
+#: src/components/_economy/employee/EmployeeModal.tsx:364
+#: src/components/_economy/employee/TrainingDraftModal.tsx:362
 msgid "Train"
 msgstr "Обучи"
 
@@ -16454,11 +16448,11 @@ msgstr "Сваког запосленог можеш да обучиш једн�
 msgid "Train Employees"
 msgstr "Обучи запослене"
 
-#: src/components/_economy/employee/EmployeeModal.tsx:741
+#: src/components/_economy/employee/EmployeeModal.tsx:738
 msgid "Train to reveal traits"
 msgstr "Обука открива особине"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:160
+#: src/components/_other/tour/tuto.frontConfig.tsx:155
 msgid "Train your employee!"
 msgstr "Обучи свог запосленог!"
 
@@ -16470,7 +16464,8 @@ msgstr "Приправник"
 msgid "Trainer"
 msgstr "Тренер"
 
-#: src/components/_economy/employee/employeeStats.tsx:199
+#: src/components/_economy/employee/employeeStats.tsx:176
+#: src/components/_economy/employee/employeeStats.tsx:648
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:175
 msgid "Training"
 msgstr "Обука"
@@ -16479,11 +16474,11 @@ msgstr "Обука"
 msgid "Training cards"
 msgstr "Карте за обуку"
 
-#: src/components/_economy/employee/TrainingDraftModal.tsx:402
+#: src/components/_economy/employee/TrainingDraftModal.tsx:407
 msgid "Training complete."
 msgstr "Обука је завршена."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:162
+#: src/components/_other/tour/tuto.frontConfig.tsx:157
 msgid "Training costs <0>Energy</0> and makes them better."
 msgstr "Обука троши <0>енергију</0> и чини запосленог бољим."
 
@@ -16491,18 +16486,14 @@ msgstr "Обука троши <0>енергију</0> и чини запосле
 msgid "Training deals a hand of {handSize} of these, all at the same rarity, and you keep one."
 msgstr "Обука дели карте из овог скупа, све исте реткости, а ти задржаваш једну. Карата у руци: {handSize}."
 
-#: src/components/_economy/employee/employeeStats.tsx:373
-msgid "Training draw, before your Leadership"
-msgstr "Извлачење за обуку, пре твог Лидерства"
-
-#: src/components/_economy/employee/TrainingHistory.tsx:244
+#: src/components/_economy/employee/TrainingHistory.tsx:264
 msgid "Training history"
 msgstr "Историја обуке"
 
 #: src/components/_economy/employee/employeeTags.tsx:58
-#: src/components/_economy/employee/EmployeeTooltip.tsx:144
-#: src/components/_economy/employee/TrainingCard.tsx:320
-#: src/components/_economy/employee/TrainingDraftModal.tsx:268
+#: src/components/_economy/employee/EmployeeTooltip.tsx:140
+#: src/components/_economy/employee/TrainingCard.tsx:346
+#: src/components/_economy/employee/TrainingDraftModal.tsx:273
 msgid "Training potential"
 msgstr "Потенцијал за обуку"
 
@@ -16511,16 +16502,16 @@ msgid "Training potential left"
 msgstr "Преостали потенцијал за обуку"
 
 #. placeholder {0}: outcome.potentialMax
-#: src/components/_economy/employee/TrainingHistory.tsx:152
+#: src/components/_economy/employee/TrainingHistory.tsx:172
 msgid "Training potential raised to <0>{0}</0>"
 msgstr "Потенцијал за обуку повећан на <0>{0}</0>"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:154
+#: src/components/_other/tour/tuto.frontConfig.tsx:149
 msgid "Training raises them all."
 msgstr "Обука подиже све атрибуте."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:708
-#: src/components/_economy/employee/EmployeeTooltip.tsx:155
+#: src/components/_economy/employee/EmployeeModal.tsx:705
+#: src/components/_economy/employee/EmployeeTooltip.tsx:151
 #: src/components/_economy/employee/EmployeeTraitsModal.tsx:170
 msgid "Traits"
 msgstr "Особине"
@@ -16619,7 +16610,7 @@ msgstr "Два колеге, ако један од њих има особину
 msgid "Two days away, and a much happier face on the way back."
 msgstr "Два дана одмора, и враћа се много ведријег лица."
 
-#: src/components/_economy/employee/training.frontConfig.tsx:93
+#: src/components/_economy/employee/training.frontConfig.tsx:112
 msgid "Two new habits"
 msgstr "Две нове навике"
 
@@ -16643,7 +16634,6 @@ msgstr "Деблокирај (прикажи садржај)"
 msgid "Uncollected cases waiting on the map, out of {maxLoots}"
 msgstr "Непокупљени сандучићи који чекају на мапи, од највише {maxLoots}"
 
-#: src/components/_economy/employee/employeeStats.tsx:130
 #: src/components/_user/user/EcoSkillEffects.tsx:26
 msgid "Uncommon"
 msgstr "Необична"
@@ -16696,7 +16686,7 @@ msgstr "Пакет откључан"
 msgid "Unmuted <0/>"
 msgstr "Укинуто утишавање <0/>"
 
-#: src/components/_economy/employee/employeeStats.tsx:739
+#: src/components/_economy/employee/employeeStats.tsx:638
 msgid "Unpaid"
 msgstr "Неплаћено"
 
@@ -16778,7 +16768,7 @@ msgstr "Надогради вештине"
 msgid "Upgrade storage"
 msgstr "Надогради складиште"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:463
+#: src/components/_other/tour/tuto.frontConfig.tsx:458
 msgid "Upgrade the break room"
 msgstr "Надогради просторију за одмор"
 
@@ -17193,7 +17183,7 @@ msgstr "Гласање се одмах затвара за све. Ово не �
 msgid "VS"
 msgstr "Против"
 
-#: src/components/_economy/employee/EmployeeTooltip.tsx:141
+#: src/components/_economy/employee/EmployeeTooltip.tsx:137
 #: src/components/_economy/transaction/TransactionList.tsx:77
 #: src/components/_economy/work/WorkChart.tsx:283
 msgid "Wage"
@@ -17228,7 +17218,7 @@ msgstr "Сачекај да прође"
 msgid "Waiting for level {0}"
 msgstr "Чека се ниво {0}"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:95
+#: src/components/_economy/employee/employee.frontConfig.tsx:83
 msgid "Walked out: they were too unhappy to keep working for you."
 msgstr "Отказ због незадовољства: рад код тебе постао је неподношљив."
 
@@ -17264,7 +17254,7 @@ msgstr "Заставник"
 msgid "Wars"
 msgstr "Ратови"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:493
+#: src/components/_other/tour/tuto.frontConfig.tsx:488
 msgid "We picked Steel: it's made from your Iron. Tap to build."
 msgstr "Изабрали смо челик: прави се од твог гвожђа. Додирни да изградиш."
 
@@ -17335,7 +17325,7 @@ msgstr "<0/> ти жели добродошлицу! Кад стигнеш, пр
 msgid "Welcome to War Era!"
 msgstr "Добродошао у War Era!"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:95
+#: src/components/_other/tour/tuto.frontConfig.tsx:94
 msgid "Welcome to your economy!"
 msgstr "Добродошао у твоју економију!"
 
@@ -17367,7 +17357,7 @@ msgstr "Вредност дневне производње твојих запо
 msgid "What do you want to ask?"
 msgstr "Шта желиш да питаш?"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:246
+#: src/components/_other/tour/tuto.frontConfig.tsx:241
 msgid "What each level opens"
 msgstr "Шта који ниво откључава"
 
@@ -17387,7 +17377,7 @@ msgstr "Алати за прикупљање и приказивање пода�
 msgid "White suit, gold everything"
 msgstr "Бело одело, све остало злато"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:315
+#: src/components/_other/tour/tuto.frontConfig.tsx:310
 msgid "Who's winning?"
 msgstr "Ко побеђује?"
 
@@ -17396,7 +17386,7 @@ msgstr "Ко побеђује?"
 msgid "Why do you want to propose this law?"
 msgstr "Зашто желиш да предложиш овај закон?"
 
-#: src/components/_economy/employee/training.frontConfig.tsx:113
+#: src/components/_economy/employee/training.frontConfig.tsx:132
 msgid "Wild card"
 msgstr "Џокер"
 
@@ -17456,8 +17446,8 @@ msgstr "Не прође ни сат, а сви већ схватају ону ц
 msgid "Wizard Hat"
 msgstr "Чаробњачки шешир"
 
-#: src/components/_economy/employee/employee.frontConfig.tsx:484
-#: src/components/_economy/employee/employee.frontConfig.tsx:512
+#: src/components/_economy/employee/employee.frontConfig.tsx:462
+#: src/components/_economy/employee/employee.frontConfig.tsx:490
 msgid "Women only."
 msgstr ""
 
@@ -17474,7 +17464,7 @@ msgstr "Дрво"
 msgid "Wooden Case"
 msgstr "Дрвено сандуче"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:566
+#: src/components/_other/tour/tuto.frontConfig.tsx:561
 msgid "Wooden cases are waiting near you. Open this menu."
 msgstr "Близу тебе чекају дрвени сандучићи. Отвори овај мени."
 
@@ -17496,7 +17486,7 @@ msgstr "Вунасти мамут"
 msgid "Work"
 msgstr "Ради"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:184
+#: src/components/_other/tour/tuto.frontConfig.tsx:179
 msgid "Work 3 times. Each one costs <0>Energy</0>."
 msgstr "Ради 3 пута. Сваки пут троши <0>енергију</0>."
 
@@ -17528,7 +17518,7 @@ msgstr "Запослени у иностранству са особином {ex
 msgid "Working abroad, with happiness {mood} or less. Always possible abroad for a {homesick}, and twice as likely."
 msgstr "Ради у иностранству, са задовољством {mood} или мање. Уз особину {homesick} у иностранству увек могуће, и то с двоструко већим шансама."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:105
+#: src/components/_other/tour/tuto.frontConfig.tsx:104
 msgid "Working fills its <0>Production</0> bar."
 msgstr "Рад пуни њену траку <0>производње</0>."
 
@@ -17536,7 +17526,7 @@ msgstr "Рад пуни њену траку <0>производње</0>."
 msgid "Working in your own company costs <0>{energyCostPerAction}</0> and adds your <1>Production</1> to its storage."
 msgstr "Рад у сопственој компанији кошта <0>{energyCostPerAction}</0> и додаје твоју <1>производњу</1> у њено складиште."
 
-#: src/components/_economy/employee/EmployeeModal.tsx:188
+#: src/components/_economy/employee/EmployeeModal.tsx:185
 msgid "Works alone"
 msgstr "Без колега"
 
@@ -17574,7 +17564,7 @@ msgstr "Предложи закон"
 msgid "Write articles"
 msgstr "Писање чланака"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:436
+#: src/components/_other/tour/tuto.frontConfig.tsx:431
 msgid "Written by players. Tap News."
 msgstr "Пишу их играчи. Додирни „Вести“."
 
@@ -17606,7 +17596,7 @@ msgstr "XP бонус"
 msgid "XP earned"
 msgstr "Зарађени XP"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:247
+#: src/components/_other/tour/tuto.frontConfig.tsx:242
 msgid "XP raises your level. Tap Levels."
 msgstr "XP ти подиже ниво. Додирни „Нивои“."
 
@@ -17778,7 +17768,7 @@ msgstr "Поклонио си некоме претплату подржавао
 msgid "You gonna be automatically approved because the country population is below"
 msgstr "Биће ти аутоматски одобрена пријава зато што је популација земље испод"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:208
+#: src/components/_other/tour/tuto.frontConfig.tsx:203
 msgid "You have a case!"
 msgstr "Добио си сандуче!"
 
@@ -17807,7 +17797,7 @@ msgstr "Премештен си из <0/> у <1/>"
 msgid "You have consumed <0>{0}</0>, it's effect starts now and ends in <1>{buffDuration}h</1>."
 msgstr "Конзумирао си <0>{0}</0>, ефекат почиње сада и завршава се за <1>{buffDuration}ч</1>."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:486
+#: src/components/_other/tour/tuto.frontConfig.tsx:481
 msgid "You have enough Concrete for one."
 msgstr "Имаш довољно бетона за једну."
 
@@ -17932,8 +17922,8 @@ msgstr "Остварио си престиж и изгубио нивое"
 msgid "You receive"
 msgstr "Добијаш"
 
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:490
-#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:518
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:499
+#: src/components/_economy/employeeEvent/EmployeeEventEffects.tsx:527
 msgid "You receive {value}"
 msgstr "Добијаш {value}"
 
@@ -18129,7 +18119,7 @@ msgstr "Твој чланак је по скору достигао 2% акти�
 msgid "Your banner \"{0}\" has been accepted and is now available in the shop! It has been automatically unlocked for you."
 msgstr "Твој банер „{0}“ је прихваћен и сада је доступан у продавници! Аутоматски ти је откључан."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:398
+#: src/components/_other/tour/tuto.frontConfig.tsx:393
 msgid "Your bars"
 msgstr "Твоје траке"
 
@@ -18206,7 +18196,7 @@ msgstr "Твоје дневне мисије су ресетоване! Завр
 msgid "Your email"
 msgstr "Твој имејл"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:141
+#: src/components/_other/tour/tuto.frontConfig.tsx:140
 msgid "Your employee's stats"
 msgstr "Атрибути твог запосленог"
 
@@ -18214,7 +18204,7 @@ msgstr "Атрибути твог запосленог"
 msgid "Your employees produce nothing right now, so a manager would add nothing."
 msgstr ""
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:514
+#: src/components/_other/tour/tuto.frontConfig.tsx:509
 msgid "Your employees' estimated daily profit, at market prices."
 msgstr "Процењена дневна добит од твојих запослених, по тржишним ценама."
 
@@ -18244,7 +18234,7 @@ msgstr "Заједничке вечери су се исплатиле, и то 
 msgid "Your evenings together pay off: a real improvement."
 msgstr "Заједничке вечери су се исплатиле: прави напредак."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:537
+#: src/components/_other/tour/tuto.frontConfig.tsx:532
 msgid "Your gear boosts them all."
 msgstr "Опрема их све појачава."
 
@@ -18281,11 +18271,11 @@ msgstr "Твоја срећа се тек загрева, не одустај"
 msgid "Your luck is on vacation"
 msgstr "Твоја срећа је на одмору"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:289
+#: src/components/_other/tour/tuto.frontConfig.tsx:284
 msgid "Your milestones"
 msgstr "Твоје прекретнице"
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:525
+#: src/components/_other/tour/tuto.frontConfig.tsx:520
 msgid "Your military skills"
 msgstr "Твоје војне вештине"
 
@@ -18317,7 +18307,7 @@ msgstr "Твоја ВЈ је пријављена за овај турнир"
 msgid "Your MU must have enough money to cover the acceptance fee to bid. Payment is only deducted if you win, and refunded on contract completion."
 msgstr "Да би дала понуду, твоја ВЈ мора да има довољно новца за таксу за прихватање. Износ се скида само ако победиш и враћа се по завршетку уговора."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:253
+#: src/components/_other/tour/tuto.frontConfig.tsx:248
 msgid "Your next unlock"
 msgstr "Твоје следеће откључавање"
 
@@ -18359,7 +18349,7 @@ msgstr "Твоја премијум претплата је истекла!"
 msgid "Your progress is kept. Finish it later to earn the reward."
 msgstr "Напредак остаје сачуван. Заврши водич касније и освоји награду."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:223
+#: src/components/_other/tour/tuto.frontConfig.tsx:218
 msgid "Your progression"
 msgstr "Твој напредак"
 
@@ -18401,7 +18391,7 @@ msgstr "Твоја плата у <0/> је промењена са <1>{0}</1> н
 msgid "Your weekly missions have been reset! Complete them to earn rewards."
 msgstr "Твоје недељне мисије су ресетоване! Заврши их да зарадиш награде."
 
-#: src/components/_other/tour/tuto.frontConfig.tsx:512
+#: src/components/_other/tour/tuto.frontConfig.tsx:507
 msgid "Your workforce"
 msgstr "Твоја радна снага"
 
